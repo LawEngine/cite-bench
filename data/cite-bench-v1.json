@@ -1,0 +1,2513 @@
+{
+  "version": "cite-bench-v1",
+  "description": "Classify each citation-and-quote pair as VERIFIED, NOT_FOUND, MISATTRIBUTED, or CITATION_UNRESOLVED.",
+  "labels": [
+    "VERIFIED",
+    "NOT_FOUND",
+    "MISATTRIBUTED",
+    "CITATION_UNRESOLVED"
+  ],
+  "total_cases": 500,
+  "cases": [
+    {
+      "id": "dcv-v6-00005",
+      "citation": "1st Dist. Local Rule 23",
+      "quote": "All filings in this court shall comply with the “Electronic Filing Procedures and User Manual of the Supreme Court of Illinois,” except that requirements in these rules regarding the number of paper copies of a document that must be submitted shall supersede those specified in that manual."
+    },
+    {
+      "id": "dcv-v6-00006",
+      "citation": "1st Dist. Local Rule 23",
+      "quote": "Adoption of Electronic Filing Manual. All filings in this court shall comply with the “Electronic Filing Procedures and User Manual of the Supreme Court of Illinois,” except that requirements in these rules regarding the number of paper copies of a document that must be submitted shall supersede those specified in that manual."
+    },
+    {
+      "id": "dcv-v6-00007",
+      "citation": "1st Dist. Local Rule 24",
+      "quote": "If application of the new rules would not be feasible or would result in an injustice, the party affected may file a motion seeking to have the repealed rule apply."
+    },
+    {
+      "id": "dcv-v6-00015",
+      "citation": "Fed. R. App. P. 10",
+      "quote": "(iii) the appellant must, within the same period, file a copy of the order with the district clerk; or"
+    },
+    {
+      "id": "dcv-v6-00016",
+      "citation": "Fed. R. App. P. 12.1",
+      "quote": "Remand After an Indicative Ruling by the District Court on a Motion for Relief That Is Barred by a Pending Appeal"
+    },
+    {
+      "id": "dcv-v6-00018",
+      "citation": "Fed. R. App. P. 14",
+      "quote": "References in any applicable rule (other than Rule 24(a)) to the district court and district clerk are to be read as referring to the Tax Court and its clerk."
+    },
+    {
+      "id": "dcv-v6-00023",
+      "citation": "Fed. R. App. P. 19",
+      "quote": "A party who disagrees with the agency’s proposed judgment must within 10 days file with the clerk and serve the agency with a proposed judgment that the party believes conforms to the opinion."
+    },
+    {
+      "id": "dcv-v6-00033",
+      "citation": "Fed. R. App. P. 29",
+      "quote": "(D) a concise statement of the identity of the amicus curiae, its interest in the case, and the source of its authority to file;"
+    },
+    {
+      "id": "dcv-v6-00041",
+      "citation": "Fed. R. App. P. 36",
+      "quote": "(1) after receiving the court’s opinion—but if settlement of the judgment’s form is required, after final settlement; or (2) if a judgment is rendered without an opinion, as the court instructs."
+    },
+    {
+      "id": "dcv-v6-00042",
+      "citation": "Fed. R. App. P. 36",
+      "quote": "On the date when judgment is entered, the clerk must serve on all parties a copy of the opinion—or the judgment, if no opinion was written—and a notice of the date when the judgment was entered."
+    },
+    {
+      "id": "dcv-v6-00043",
+      "citation": "Fed. R. App. P. 37",
+      "quote": "(a) When the Court Affirms. Unless the law provides otherwise, if a money judgment in a civil case is affirmed, whatever interest is allowed by law is payable from the date when the district court’s judgment was entered."
+    },
+    {
+      "id": "dcv-v6-00056",
+      "citation": "Fed. R. Bankr. P. 1001",
+      "quote": "These rules should be referred to as the Federal Rules of Bankruptcy Procedure and the forms as the Official Bankruptcy Forms."
+    },
+    {
+      "id": "dcv-v6-00060",
+      "citation": "Fed. R. Bankr. P. 1010",
+      "quote": "After an involuntary petition has been filed, the clerk must promptly issue a summons for service on the debtor."
+    },
+    {
+      "id": "dcv-v6-00061",
+      "citation": "Fed. R. Bankr. P. 1010",
+      "quote": "A corporation that files an involuntary petition must file and serve with the petition a corporate-ownership statement containing the information described in Rule 7007.1."
+    },
+    {
+      "id": "dcv-v6-00066",
+      "citation": "Fed. R. Bankr. P. 2002",
+      "quote": "The notice must be sent within the time that (a) or (b) prescribes. (3) Exception Under the Securities Investor Protection Act ."
+    },
+    {
+      "id": "dcv-v6-00070",
+      "citation": "Fed. R. Bankr. P. 2013",
+      "quote": "(A) include the case name and number, the name of the individual or firm receiving the fee, and the amount awarded;"
+    },
+    {
+      "id": "dcv-v6-00071",
+      "citation": "Fed. R. Bankr. P. 2020",
+      "quote": "Reviewing an Act by a United States Trustee A proceeding to contest any act or failure to act by a United States trustee is governed by Rule 9014."
+    },
+    {
+      "id": "dcv-v6-00072",
+      "citation": "Fed. R. Bankr. P. 3001",
+      "quote": "A proof of claim signed and filed in accordance with these rules is prima facie evidence of the claim’s validity and amount. (g) Proving the Ownership and Quantity of Grain ."
+    },
+    {
+      "id": "dcv-v6-00083",
+      "citation": "Fed. R. Bankr. P. 3020",
+      "quote": "If no objection is timely filed, the court may, without receiving evidence, determine that the plan was proposed in good faith and not by any means forbidden by law."
+    },
+    {
+      "id": "dcv-v6-00086",
+      "citation": "Fed. R. Bankr. P. 4005",
+      "quote": "Burden of Proof in Objecting to a Discharge At a trial on a complaint objecting to a discharge, the plaintiff has the burden of proof."
+    },
+    {
+      "id": "dcv-v6-00109",
+      "citation": "Fed. R. Bankr. P. 8018.1",
+      "quote": "Reviewing a Judgment That the Bankruptcy Court Lacked Authority to Enter If, on appeal, a district court determines that the bankruptcy court did not have authority under Article III of the Constitution to enter the judgment, order, or decree being appealed, the district court may treat it as proposed findings of fact and conclusions of law."
+    },
+    {
+      "id": "dcv-v6-00115",
+      "citation": "Fed. R. Bankr. P. 9015",
+      "quote": "P. 50 applies in a bankruptcy case or proceeding—except that a renewed motion for judgment, or a request for a new trial, must be filed within 14 days after the judgment is entered."
+    },
+    {
+      "id": "dcv-v6-00116",
+      "citation": "Fed. R. Bankr. P. 9019",
+      "quote": "(c) Arbitration of Controversies Affecting an Estate . If the parties so stipulate, the court may authorize a controversy affecting an estate to be submitted to final and binding arbitration."
+    },
+    {
+      "id": "dcv-v6-00119",
+      "citation": "Fed. R. Bankr. P. 9030",
+      "quote": "Jurisdiction and Venue Not Extended or Limited These rules must not be construed to extend or limit the courts’ jurisdiction or the venue of any matters."
+    },
+    {
+      "id": "dcv-v6-00125",
+      "citation": "Fed. R. Civ. P. 11",
+      "quote": "(3) the factual contentions have evidentiary support or, if specifically so identified, will likely have evidentiary support after a reasonable opportunity for further investigation or discovery; and (4) the denials of factual contentions are warranted on the evidence or, if specifically so identified, are reasonably based on belief or a lack of information."
+    },
+    {
+      "id": "dcv-v6-00126",
+      "citation": "Fed. R. Civ. P. 11",
+      "quote": "The motion must be served under Rule 5, but it must not be filed or be presented to the court if the challenged paper, claim, defense, contention, or denial is withdrawn or appropriately corrected within 21 days after service or within another time the court sets. If warranted, the court may award to the prevailing party the reasonable expenses, including attorney’s fees, incurred for the motion."
+    },
+    {
+      "id": "dcv-v6-00134",
+      "citation": "Fed. R. Civ. P. 20",
+      "quote": "Neither a plaintiff nor a defendant need be interested in obtaining or defending against all the relief demanded."
+    },
+    {
+      "id": "dcv-v6-00139",
+      "citation": "Fed. R. Civ. P. 23.1",
+      "quote": "The derivative action may not be maintained if it appears that the plaintiff does not fairly and adequately represent the interests of shareholders or members who are similarly situated in enforcing the right of the corporation or association."
+    },
+    {
+      "id": "dcv-v6-00156",
+      "citation": "Fed. R. Civ. P. 46",
+      "quote": "Objecting to a Ruling or Order A formal exception to a ruling or order is unnecessary."
+    },
+    {
+      "id": "dcv-v6-00159",
+      "citation": "Fed. R. Civ. P. 5",
+      "quote": "No service is required on a party who is in default for failing to appear."
+    },
+    {
+      "id": "dcv-v6-00161",
+      "citation": "Fed. R. Civ. P. 52",
+      "quote": "Findings of fact, whether based on oral or other evidence, must not be set aside unless clearly erroneous, and the reviewing court must give due regard to the trial court’s opportunity to judge the witnesses’ credibility."
+    },
+    {
+      "id": "dcv-v6-00163",
+      "citation": "Fed. R. Civ. P. 59",
+      "quote": "When a motion for a new trial is based on affidavits, they must be filed with the motion."
+    },
+    {
+      "id": "dcv-v6-00165",
+      "citation": "Fed. R. Civ. P. 60",
+      "quote": "A motion under Rule 60(b) must be made within a reasonable time—and for reasons (1), (2), and (3) no more than a year after the entry of the judgment or order or the date of the proceeding. (2) Effect on Finality."
+    },
+    {
+      "id": "dcv-v6-00167",
+      "citation": "Fed. R. Civ. P. 62.1",
+      "quote": "(3) state either that it would grant the motion if the court of appeals remands for that purpose or that the motion raises a substantial issue. (b) Notice to the Court of Appeals."
+    },
+    {
+      "id": "dcv-v6-00173",
+      "citation": "Fed. R. Civ. P. 69",
+      "quote": "In aid of the judgment or execution, the judgment creditor or a successor in interest whose interest appears of record may obtain discovery from any person—including the judgment debtor—as provided in these rules or by the procedure of the state where the court is located. (b) Against Certain Public Officers."
+    },
+    {
+      "id": "dcv-v6-00178",
+      "citation": "Fed. R. Civ. P. 71.1",
+      "quote": "If a party has demanded a jury, the court may instead appoint a three-person commission to determine compensation because of the character, location, or quantity of the property to be condemned or for other just reasons."
+    },
+    {
+      "id": "dcv-v6-00179",
+      "citation": "Fed. R. Civ. P. 72",
+      "quote": "The district judge must determine de novo any part of the magistrate judge’s disposition that has been properly objected to. The district judge may accept, reject, or modify the recommended disposition; receive further evidence; or return the matter to the magistrate judge with instructions."
+    },
+    {
+      "id": "dcv-v6-00180",
+      "citation": "Fed. R. Civ. P. 78",
+      "quote": "By rule or order, the court may provide for submitting and determining motions on briefs, without oral hearings."
+    },
+    {
+      "id": "dcv-v6-00193",
+      "citation": "Supplemental Social Security Rule 4",
+      "quote": "A motion under Civil Rule 12 must be made within 60 days after notice of the action is given under Rule 3."
+    },
+    {
+      "id": "dcv-v6-00204",
+      "citation": "Fed. R. Crim. P. 18",
+      "quote": "The court must set the place of trial within the district with due regard for the convenience of the defendant, any victim, and the witnesses, and the prompt administration of justice."
+    },
+    {
+      "id": "dcv-v6-00211",
+      "citation": "Fed. R. Crim. P. 26.1",
+      "quote": "Issues of foreign law are questions of law, but in deciding such issues a court may consider any relevant material or source—including testimony—without regard to the Federal Rules of Evidence."
+    },
+    {
+      "id": "dcv-v6-00212",
+      "citation": "Fed. R. Crim. P. 26.2",
+      "quote": "(3) the witness’s statement to a grand jury, however taken or recorded, or a transcription of such a statement."
+    },
+    {
+      "id": "dcv-v6-00227",
+      "citation": "Fed. R. Crim. P. 37",
+      "quote": "Indicative Ruling on a Motion for Relief That Is Barred by a Pending Appeal"
+    },
+    {
+      "id": "dcv-v6-00229",
+      "citation": "Fed. R. Crim. P. 4.1",
+      "quote": "(A) transmit the modified version to the applicant by reliable electronic means; or (B) file the modified original and direct the applicant to modify the proposed duplicate original accordingly."
+    },
+    {
+      "id": "dcv-v6-00234",
+      "citation": "Fed. R. Crim. P. 42",
+      "quote": "If the government declines the request, the court must appoint another attorney to prosecute the contempt. (3) Trial and Disposition."
+    },
+    {
+      "id": "dcv-v6-00236",
+      "citation": "Fed. R. Crim. P. 44",
+      "quote": "(A) two or more defendants have been charged jointly under Rule 8(b) or have been joined for trial under Rule 13; and (B) the defendants are represented by the same counsel, or counsel who are associated in law practice."
+    },
+    {
+      "id": "dcv-v6-00237",
+      "citation": "Fed. R. Crim. P. 45",
+      "quote": "(A) exclude the day of the event that triggers the period; (B) count every day, including intermediate Saturdays, Sundays, and legal holidays; and"
+    },
+    {
+      "id": "dcv-v6-00238",
+      "citation": "Fed. R. Crim. P. 46",
+      "quote": "The court may, upon the government’s motion, enforce the surety’s liability without an independent action."
+    },
+    {
+      "id": "dcv-v6-00239",
+      "citation": "Fed. R. Crim. P. 46",
+      "quote": "After entering a judgment under Rule 46(f)(3), the court may remit in whole or in part the judgment under the same conditions specified in Rule 46(f)(2)."
+    },
+    {
+      "id": "dcv-v6-00251",
+      "citation": "Fed. R. Crim. P. 7",
+      "quote": "An offense punishable by imprisonment for more than one year may be prosecuted by information if the defendant—in open court and after being advised of the nature of the charge and of the defendant’s rights—waives prosecution by indictment. (c) Nature and Contents."
+    },
+    {
+      "id": "dcv-v6-00253",
+      "citation": "Fed. R. Evid. 1001",
+      "quote": "(e) A “duplicate” means a counterpart produced by a mechanical, photographic, chemical, electronic, or other equivalent process or technique that accurately reproduces the original."
+    },
+    {
+      "id": "dcv-v6-00264",
+      "citation": "Fed. R. Evid. 103",
+      "quote": "The court may direct that an offer of proof be made in question-and-answer form. (d) Preventing the Jury from Hearing Inadmissible Evidence."
+    },
+    {
+      "id": "dcv-v6-00265",
+      "citation": "Fed. R. Evid. 104",
+      "quote": "The court may admit the proposed evidence on the condition that the proof be introduced later."
+    },
+    {
+      "id": "dcv-v6-00270",
+      "citation": "Fed. R. Evid. 302",
+      "quote": "Applying State Law to Presumptions in Civil Cases In a civil case, state law governs the effect of a presumption regarding a claim or defense for which state law supplies the rule of decision."
+    },
+    {
+      "id": "dcv-v6-00272",
+      "citation": "Fed. R. Evid. 403",
+      "quote": "Excluding Relevant Evidence for Prejudice, Confusion, Waste of Time, or Other Reasons The court may exclude relevant evidence if its probative value is substantially outweighed by a danger of one or more of the following: unfair prejudice, confusing the issues, misleading the jury, undue delay, wasting time, or needlessly presenting cumulative evidence."
+    },
+    {
+      "id": "dcv-v6-00287",
+      "citation": "Fed. R. Evid. 501",
+      "quote": "Privilege in General The common law—as interpreted by United States courts in the light of reason and experience—governs a claim of privilege unless any of the following provides otherwise: • the United States Constitution; • a federal statute; or • rules prescribed by the Supreme Court. But in a civil case, state law governs privilege regarding a claim or defense for which state law supplies the rule of decision."
+    },
+    {
+      "id": "dcv-v6-00288",
+      "citation": "Fed. R. Evid. 502",
+      "quote": "(1) the disclosure is inadvertent; (2) the holder of the privilege or protection took reasonable steps to prevent disclosure; and"
+    },
+    {
+      "id": "dcv-v6-00289",
+      "citation": "Fed. R. Evid. 601",
+      "quote": "Competency to Testify in General Every person is competent to be a witness unless these rules provide otherwise. But in a civil case, state law governs the witness’s competency regarding a claim or defense for which state law supplies the rule of decision."
+    },
+    {
+      "id": "dcv-v6-00298",
+      "citation": "Fed. R. Evid. 801",
+      "quote": "(1) the declarant does not make while testifying at the current trial or hearing; and"
+    },
+    {
+      "id": "dcv-v6-00300",
+      "citation": "Fed. R. Evid. 803",
+      "quote": "A statement relating to a startling event or condition, made while the declarant was under the stress of excitement that it caused."
+    },
+    {
+      "id": "dcv-v6-00303",
+      "citation": "Fed. R. Evid. 806",
+      "quote": "The court may admit evidence of the declarant’s inconsistent statement or conduct, regardless of when it occurred or whether the declarant had an opportunity to explain or deny it. If the party against whom the statement was admitted calls the declarant as a witness, the party may examine the declarant on the statement as if on cross-examination."
+    },
+    {
+      "id": "dcv-v6-00307",
+      "citation": "10 ILCS 5/16-7",
+      "quote": "However, at the nonpartisan, consolidated primary, and consolidated elections, the proposition for a public question relating to a political subdivision shall be placed on the ballot together with the ballot for the nomination or election of officers of such political subdivision to be voted upon at the same election, unless such placement is not feasible."
+    },
+    {
+      "id": "dcv-v6-00316",
+      "citation": "10 ILCS 5/5-10",
+      "quote": "If, during either day of the 1961 and 1962 precinct re-registration, any registered voter of the township, city, village or incorporated town shall come before the Deputy Registrars and the Judge of Registration and make an oath that he believes that any particular person whose name has been entered upon the registry is not a qualified voter, such fact shall be noted; and after the completion of such \"Verification Lists\" one of the Registrars, or Judge of Registration, shall make a cross or check mark in ink opposite such name."
+    },
+    {
+      "id": "dcv-v6-00321",
+      "citation": "10 ILCS 5/6-9",
+      "quote": "Upon each of which statements shall be endorsed \"city election law returns\". In the same manner the tally sheet in duplicate shall be signed by the judges, and shall be enclosed and sealed in separate envelopes, one of which shall be addressed to the county judge and one to the city clerk; upon both of the envelopes shall be endorsed \"city election law tallies\"."
+    },
+    {
+      "id": "dcv-v6-00324",
+      "citation": "105 ILCS 240/40",
+      "quote": "The Secretary of State shall make and keep a register of agencies established under this Act."
+    },
+    {
+      "id": "dcv-v6-00325",
+      "citation": "105 ILCS 240/40",
+      "quote": "The Secretary of State shall accept such filing and issue an acknowledgement of filing over his or her signature and the Great Seal of the State. The Secretary of State shall make and keep a register of agencies established under this Act."
+    },
+    {
+      "id": "dcv-v6-00328",
+      "citation": "105 ILCS 5/14-6.01",
+      "quote": "School boards shall immediately provide upon request by any person written materials and other information that indicates the specific policies, procedures, rules and regulations regarding the identification, evaluation or educational placement of children with disabilities under Section 14-8.02 of the School Code."
+    },
+    {
+      "id": "dcv-v6-00330",
+      "citation": "105 ILCS 5/1H-95",
+      "quote": "The State Superintendent may require a separate audit of the Panel, otherwise the activities of the Panel must be included in the scope of the audit of the school district."
+    },
+    {
+      "id": "dcv-v6-00336",
+      "citation": "105 ILCS 5/27A-3",
+      "quote": "\"Local school board\" means the duly elected or appointed school board or board of education of a public school district, including special charter districts and school districts located in cities having a population of more than 500,000, organized under the laws of this State."
+    },
+    {
+      "id": "dcv-v6-00341",
+      "citation": "105 ILCS 5/4-12",
+      "quote": "Notwithstanding Sections 4-2, 4-4, 4-6, 4-7, 4-8, 4-9, and 4-10 of this Code, a county having a population of 2,000,000 or more inhabitants may provide financial or in-kind support to the educational service centers serving that county."
+    },
+    {
+      "id": "dcv-v6-00346",
+      "citation": "110 ILCS 160/15",
+      "quote": "At a minimum, these procedures shall include a listing of the types of documentation acceptable to the public university and the dates of inclusion for which prior learning is acceptable. (b) Each community college shall submit its policies and procedures for students to earn credit for prior learning to the Illinois Community College Board."
+    },
+    {
+      "id": "dcv-v6-00357",
+      "citation": "15 ILCS 305/19",
+      "quote": "The Secretary of State shall establish aspirational goals for contract awards substantially in accordance with the Business Enterprise for Minorities, Women, and Persons with Disabilities Act, unless otherwise governed by other law."
+    },
+    {
+      "id": "dcv-v6-00359",
+      "citation": "15 ILCS 405/21",
+      "quote": "(c) To the Department of Agriculture for the purpose of making change for activities at each State Fair, not to exceed $200,000, to be returned within 5 days of the termination of such activity."
+    },
+    {
+      "id": "dcv-v6-00361",
+      "citation": "15 ILCS 505/17",
+      "quote": "The policy shall be published each year as part of the audit of the Public Treasurers' Investment Pool by the Auditor General, which shall be distributed to all participants. The Treasurer shall notify all Public Treasurers' Investment Pool participants in writing, and the Treasurer shall publish in at least one newspaper of general circulation in both Springfield and Chicago any changes to a previously published investment policy at least 30 calendar days before implementing the policy."
+    },
+    {
+      "id": "dcv-v6-00363",
+      "citation": "20 ILCS 1130/2",
+      "quote": "An interchange of technical information between large and small businesses, independent consultants and Illinois' scientific community is an essential element of the State's policy to protect citizens from the dangers of hazardous wastes and to encourage economic growth."
+    },
+    {
+      "id": "dcv-v6-00371",
+      "citation": "20 ILCS 1815/4-10",
+      "quote": "Enlisted members shall be issued uniforms in accordance with regulations prescribed by the Adjutant General and subject to the availability of State funds. (c) Officer and enlisted rank insignia shall be in conformity with those of the Illinois National Guard."
+    },
+    {
+      "id": "dcv-v6-00376",
+      "citation": "20 ILCS 2105/2105-130",
+      "quote": "(c) When making a determination of the appropriate disciplinary sanction to be imposed on a licensee, the Department shall consider, but is not limited to, the following mitigating factors contained in the record: (1) the lack of prior disciplinary action by the Department or by other agencies in this State, by other states or jurisdictions, hospitals, health care facilities, residency programs, employers, insurance providers, or by any of the armed forces of the United States or any state;"
+    },
+    {
+      "id": "dcv-v6-00380",
+      "citation": "20 ILCS 2310/2310-222",
+      "quote": "The best practices shall include the appropriate and timely consultation of an obstetric or other relevant provider to provide input on management and follow-up, such as offering coordination of a post-delivery early postpartum visit or other services that may be appropriate and available."
+    },
+    {
+      "id": "dcv-v6-00382",
+      "citation": "20 ILCS 2505/2505-555",
+      "quote": "(c) The study under this Section must include an analysis of any obstacles that a county will face in including the information on property tax bills and identify any possible solutions to those obstacles. (d) No later than April 1, 2008, the Department must submit a report to the Governor and the General Assembly concerning the study under this Section."
+    },
+    {
+      "id": "dcv-v6-00390",
+      "citation": "20 ILCS 3820/65",
+      "quote": "Loans to CDFIs may be made by the Authority as the sole lender or in cooperation with participating investors pursuant to agreements entered into in accordance with this Act."
+    },
+    {
+      "id": "dcv-v6-00400",
+      "citation": "20 ILCS 605/605-347",
+      "quote": "(a) Before December 31, 2006, the Department may, subject to appropriation, provide information to the public on energy-efficient appliances by a hypertext link to the Energy Star Internet website maintained by the United States Environmental Protection Agency or by compiling information about the Energy Star Program on the Department's website."
+    },
+    {
+      "id": "dcv-v6-00404",
+      "citation": "20 ILCS 715/15",
+      "quote": "(9) A narrative, if necessary, describing why the development assistance is needed and how the applicant's use of the development assistance may reduce employment at any site in Illinois. (10) A certification by the chief officer of the applicant or his or her authorized designee that the information contained in the application submitted to the granting body contains no knowing misrepresentation of material facts upon which eligibility for development assistance is based."
+    },
+    {
+      "id": "dcv-v6-00405",
+      "citation": "20 ILCS 725/10",
+      "quote": "As used in this Act: \"Bordering states\" means the states that border the State of Illinois, specifically Wisconsin, Iowa, Missouri, Kentucky, and Indiana. \"Department\" means the Department of Commerce and Economic Opportunity."
+    },
+    {
+      "id": "dcv-v6-00406",
+      "citation": "20 ILCS 725/10",
+      "quote": "\"Plan\" means the economic plan developed by the Department to assist businesses and municipalities located geographically close to bordering states."
+    },
+    {
+      "id": "dcv-v6-00421",
+      "citation": "205 ILCS 620/5-3",
+      "quote": "(a) Whenever it appears to the Commissioner from any examination, statement of condition or report, that any corporate fiduciary has committed any violation of law, has made or published a false statement of condition or is conducting its business in an unsafe, unsound or unauthorized manner, he shall, by an order under his signature, direct the discontinuance of such illegal and unsafe, unsound or unauthorized practices and that the corporate fiduciary strictly conform with the requirements of the law, and with safety and security in its transactions."
+    },
+    {
+      "id": "dcv-v6-00422",
+      "citation": "205 ILCS 620/5-3",
+      "quote": "(c) No dividends shall be paid by a corporate fiduciary while it continues its business as a corporate fiduciary to an amount greater than its net profits then on hand, deducting first therefrom its losses and bad debts."
+    },
+    {
+      "id": "dcv-v6-00423",
+      "citation": "205 ILCS 650/8",
+      "quote": "The Commissioner shall have under this Act all of the powers granted to him under the Illinois Banking Act, including the authority to impose a reasonable charge to recover the cost of an examination conducted by the Commissioner, to the extent necessary to enable the Commissioner to supervise the representative office of a foreign bank holding a license."
+    },
+    {
+      "id": "dcv-v6-00425",
+      "citation": "205 ILCS 665/17",
+      "quote": "Such injunction proceeding shall be in addition to, and not in lieu of, penalties and remedies otherwise in this Act provided."
+    },
+    {
+      "id": "dcv-v6-00433",
+      "citation": "210 ILCS 25/1-102",
+      "quote": "It is further declared that the purpose of this Act is to supplement federal regulation of clinical laboratories to provide for the better protection of public health."
+    },
+    {
+      "id": "dcv-v6-00445",
+      "citation": "210 ILCS 5/10b",
+      "quote": "The Director or his designee shall also inform the licensee of the right to a hearing under Section 10g."
+    },
+    {
+      "id": "dcv-v6-00449",
+      "citation": "210 ILCS 85/2",
+      "quote": "(3) That it is in the interest of the people of the State of Illinois to establish safeguards that (i) require hospitals and hospital based providers to explain to individual providers the reasons, including economic factors, for credentialing decisions, (ii) allow an opportunity for a fair hearing, and (iii) report economic credentialing to the Hospital Licensing Board for further study."
+    },
+    {
+      "id": "dcv-v6-00453",
+      "citation": "215 ILCS 161/5",
+      "quote": "(iii) any devices that deliver medication or other therapeutic treatment to the human eye or adnexa. \"Services\" means the professional work performed by an eye care provider."
+    },
+    {
+      "id": "dcv-v6-00466",
+      "citation": "215 ILCS 5/356c",
+      "quote": "The coverage for newly born children shall include coverage of illness, injury, congenital defects (including the treatment of cleft lip and cleft palate), birth abnormalities and premature birth. (3) If payment of a specific premium is required to provide coverage for a child, the policy may require that notification of birth of a newly born child must be furnished to the insurer within 31 days after the date of birth in order to have the coverage continue beyond such 31 day period and may require payment of the appropriate premium."
+    },
+    {
+      "id": "dcv-v6-00470",
+      "citation": "215 ILCS 5/511.105",
+      "quote": "(b) Each administrator license shall remain in effect as long as the holder of the license maintains in force and effect the bond required by Section 511.104 and pays the annual fee of $200 prior to the anniversary date of the license, unless the license is revoked or suspended pursuant to Section 511.107."
+    },
+    {
+      "id": "dcv-v6-00478",
+      "citation": "220 ILCS 5/2-202",
+      "quote": "(2) Beginning with returns due after January 1, 2002, the requirements of paragraph (1) of this subsection (d) shall not apply to any public utility in any calendar year for which the total tax the public utility owes under this Section is less than $10,000. For such public utilities with respect to such years, the public utility shall file with the Commission, on or before March 31 of the following year, an annual gross revenue return for the year and a statement of the amount of tax due for that year on the basis of such a return."
+    },
+    {
+      "id": "dcv-v6-00479",
+      "citation": "220 ILCS 5/2-202",
+      "quote": "(d) Annual gross revenue returns shall be filed in accordance with paragraph (1) or (2) of this subsection (d). (1) Except as provided in paragraph (2) of this subsection (d), on or before January 10 of each year each public utility subject to the provisions of this Act shall file with the Commission an estimated annual gross revenue return containing an estimate of the amount of its gross revenue for the calendar year commencing January 1 of said year and a statement of the amount of tax due for said calendar year on the basis of that estimate."
+    },
+    {
+      "id": "dcv-v6-00489",
+      "citation": "225 ILCS 107/150",
+      "quote": "(a) All final administrative decisions of the Department are subject to judicial review pursuant to the Administrative Review Law and its rules. The term \"administrative decision\" is defined as in Section 3-101 of the Code of Civil Procedure."
+    },
+    {
+      "id": "dcv-v6-00490",
+      "citation": "225 ILCS 130/165",
+      "quote": "(a) In addition to any other penalty provided by law, a person who violates Section 35 of this Act shall pay a civil penalty to the Department in an amount not to exceed $10,000 for each offense as determined by the Department."
+    },
+    {
+      "id": "dcv-v6-00499",
+      "citation": "225 ILCS 325/45",
+      "quote": "For the purpose of this Act the notice required under Section 10-25 of the Illinois Administrative Procedure Act is deemed sufficient when mailed to the address of record or emailed to the email address of record."
+    },
+    {
+      "id": "dcv-v6-00502",
+      "citation": "225 ILCS 410/3E-3",
+      "quote": "A hair braiding teacher license shall be made available by the Department. The qualifications for a hair braiding teacher license shall be provided by rule, and shall include at least 600 clock hours or a 20 credit hour equivalency in relevant teaching methods and curriculum content, or at least 500 clock hours of hair braiding teacher training for an individual who is able to establish that he or she has had at least 2 years of practical experience."
+    },
+    {
+      "id": "dcv-v6-00513",
+      "citation": "225 ILCS 605/3.4",
+      "quote": "An animal shelter or animal control facility may not release any animal to an individual representing an animal shelter or animal control facility, unless (1) the recipient animal shelter or animal control facility has been licensed or has a foster care permit issued by the Department or (2) the individual is a representative of a not-for-profit, out-of-State organization or out-of-State animal control facility or animal shelter who is transferring the animal out of the State of Illinois."
+    },
+    {
+      "id": "dcv-v6-00515",
+      "citation": "225 ILCS 635/3.2",
+      "quote": "A co-partnership, unless all of the members of such co-partnership shall be qualified to obtain a license."
+    },
+    {
+      "id": "dcv-v6-00524",
+      "citation": "225 ILCS 75/9",
+      "quote": "(4) has successfully completed the examination authorized by the Department within the past 5 years."
+    },
+    {
+      "id": "dcv-v6-00526",
+      "citation": "225 ILCS 80/26.9",
+      "quote": "Whenever the Secretary is satisfied that substantial justice has not been done in the revocation, suspension or refusal to issue or renew a license, the Secretary may order a rehearing by the same or another hearing officer or by the Board."
+    },
+    {
+      "id": "dcv-v6-00529",
+      "citation": "230 ILCS 10/23",
+      "quote": "The adjusted gross receipts of any riverboat gambling operations conducted by a licensed manager on behalf of the State remaining after the payment of the fees and expenses of the licensed manager shall be deposited into the State Gaming Fund. Fines and penalties collected pursuant to this Act shall be deposited into the Education Assistance Fund, created by Public Act 86-0018, of the State of Illinois."
+    },
+    {
+      "id": "dcv-v6-00535",
+      "citation": "230 ILCS 5/3.28",
+      "quote": "An advance deposit wagering licensee shall be an organization licensee or a person or third party who contracts with an organization licensee in order to conduct advance deposit wagering."
+    },
+    {
+      "id": "dcv-v6-00548",
+      "citation": "30 ILCS 105/8.26",
+      "quote": "Appropriations for expenditures by the Department of Central Management Services for the self-insurance health plan authorized by the State Employees Group Insurance Act of 1971 are payable from the Health Insurance Reserve Fund."
+    },
+    {
+      "id": "dcv-v6-00550",
+      "citation": "30 ILCS 5/2-15",
+      "quote": "The Office of the Auditor General shall operate a toll-free telephone hot line for the public to report allegations of fraud in the executive branch of State government."
+    },
+    {
+      "id": "dcv-v6-00556",
+      "citation": "30 ILCS 500/50-5",
+      "quote": "(1) has been convicted under the laws of Illinois or any other state of bribery or attempting to bribe an officer or employee of the State of Illinois or any other state in that officer's or employee's official capacity; or [...] (1) the business has been finally adjudicated not guilty; or"
+    },
+    {
+      "id": "dcv-v6-00558",
+      "citation": "30 ILCS 540/3-2",
+      "quote": "Interest due to a vendor that amounts to greater than $5 and less than $50 shall not be paid but shall be accrued until all interest due the vendor for all similar warrants exceeds $50, at which time the accrued interest shall be payable and interest will begin accruing again, except that interest accrued as of the end of the fiscal year that does not exceed $50 shall be payable at that time."
+    },
+    {
+      "id": "dcv-v6-00559",
+      "citation": "30 ILCS 540/3-2",
+      "quote": "If the State agency determines that the bill or invoice contains a defect making it unable to process the payment request, the agency shall notify the vendor requesting payment as soon as possible after discovering the defect pursuant to rules promulgated under Section 3-3; provided, however, that the notice for construction related bills or invoices must be given not later than 30 days after the bill or invoice was first submitted."
+    },
+    {
+      "id": "dcv-v6-00560",
+      "citation": "30 ILCS 740/2-6",
+      "quote": "For Fiscal Year 1975, notification shall be made not later than January 1, 1975, of the amount of such allocation. In determining the allocation for each participant, the Department shall estimate the funds available to the participant from the Downstate Public Transportation Fund for the purposes of this Article during the succeeding fiscal year, and shall allocate to each participant the amount attributable to it which shall be the amount paid into the Downstate Public Transportation Fund under Section 2-3 from within its boundaries."
+    },
+    {
+      "id": "dcv-v6-00561",
+      "citation": "30 ILCS 740/2-6",
+      "quote": "Beginning in Fiscal Year 1997, said allocation may be exceeded for participants receiving assistance equal to the percentage of their eligible operating expenses provided for in paragraph (b) of Section 2-7, only if allocation is less than the percentage of such participant's eligible operating expenses provided for in paragraph (b) of Section 2-7, provided however, that no other participant is denied its percentage of eligible operating expenses."
+    },
+    {
+      "id": "dcv-v6-00581",
+      "citation": "310 ILCS 45/6.1",
+      "quote": "The Agency shall make a report containing its finding and recommendations to the General Assembly and the Governor on or before February 1, 1988."
+    },
+    {
+      "id": "dcv-v6-00585",
+      "citation": "320 ILCS 25/3.07",
+      "quote": "(H) An amount equal to any benefits received under the Workers' Compensation Act or the Workers' Occupational Diseases Act during the taxable year. \"Income\" does not include any distributions or items of income described under subparagraph (X) of paragraph (2) of subsection (a) of Section 203 of the Illinois Income Tax Act or any payments under Section 2201 or Section 2202 of the American Recovery and Reinvestment Act of 2009."
+    },
+    {
+      "id": "dcv-v6-00590",
+      "citation": "35 ILCS 200/12-15",
+      "quote": "(a) For a parcel listing including the name of the property owner, a property index number, property address, or both, and the total assessment, 80 per parcel;"
+    },
+    {
+      "id": "dcv-v6-00591",
+      "citation": "35 ILCS 200/12-15",
+      "quote": "(g) For the preamble, headings, and any other explanatory matter either required by law, or requested by the supervisor of assessments, to be published, the rate shall be set according to the Legal Advertising Rate Act."
+    },
+    {
+      "id": "dcv-v6-00598",
+      "citation": "35 ILCS 200/31-45",
+      "quote": "(g) Deeds or trust documents that release property that is security for a debt or other obligation."
+    },
+    {
+      "id": "dcv-v6-00605",
+      "citation": "40 ILCS 5/11-210",
+      "quote": "(2) Amounts necessary according to the American Experience Table of Mortality and interest at the rate of 4% per annum or the Combined Annuity Mortality Table and interest at the rate of 3% per annum, as to those assets or liabilities to which either table may be applicable in accordance with the provisions of this Article, to make the annuity payment reserve equal to its liabilities (including the present values of all annuities entered upon, or fixed and not entered upon, chargeable to such reserve) shall be transferred to the annuity payment reserve at least once each year."
+    },
+    {
+      "id": "dcv-v6-00614",
+      "citation": "40 ILCS 5/20-112",
+      "quote": "\"Survivor's annuity\": Payments by a system which are made to the widow or survivors of an employee or participant in the form of a pension or annuity or a lump sum which, under the provisions of the law governing such system, is considered as a widow's or survivor's benefit, or a lump sum which is made in lieu of a pension or annuity which would otherwise be payable to the widow or survivor."
+    },
+    {
+      "id": "dcv-v6-00617",
+      "citation": "40 ILCS 5/4-115.1",
+      "quote": "Dependent benefits shall be paid to each natural child of a deceased firefighter, and to each child legally adopted, until the child's attainment of age 18 or marriage, whichever occurs first, whether or not the death of the firefighter occurred prior to November 21, 1975."
+    },
+    {
+      "id": "dcv-v6-00618",
+      "citation": "40 ILCS 5/5-101",
+      "quote": "For the purposes of this Article, the policemen's annuity and benefit fund may be referred to as the \"fund.\""
+    },
+    {
+      "id": "dcv-v6-00621",
+      "citation": "40 ILCS 5/6-156",
+      "quote": "(b) If a fireman re-enters service after age 63, payments of pension or annuity previously granted shall be suspended."
+    },
+    {
+      "id": "dcv-v6-00623",
+      "citation": "40 ILCS 5/6-194",
+      "quote": "Amounts contributed by the city for cost of administration shall be credited to this reserve."
+    },
+    {
+      "id": "dcv-v6-00632",
+      "citation": "40 ILCS 5/9-173",
+      "quote": "By such refund the employee or his widow surrenders and forfeits all rights which might otherwise have accrued by virtue of any amount so refunded, including related county contributions."
+    },
+    {
+      "id": "dcv-v6-00633",
+      "citation": "40 ILCS 5/9-173",
+      "quote": "Concurrently with each such additional contribution, the county shall contribute 1 and 4/10 times the additional contributions. [...] By such refund the employee or his widow surrenders and forfeits all rights which might otherwise have accrued by virtue of any amount so refunded, including related county contributions."
+    },
+    {
+      "id": "dcv-v6-00646",
+      "citation": "410 ILCS 522/10-30",
+      "quote": "(1) Mandatory reporting by health care facilities of adverse health care events."
+    },
+    {
+      "id": "dcv-v6-00651",
+      "citation": "410 ILCS 70/5.1",
+      "quote": "Photo documentation of a sexual assault survivor 18 years of age or older shall be retained for a period of 20 years after the record was created."
+    },
+    {
+      "id": "dcv-v6-00659",
+      "citation": "410 ILCS 725/5",
+      "quote": "\"Essential off-patent or generic drug\" includes any drug-device combination product used for the delivery of a drug for which all exclusive marketing rights, if any, granted under the Federal Food, Drug, and Cosmetic Act, Section 351 of the federal Public Health Service Act, and federal patent law have expired."
+    },
+    {
+      "id": "dcv-v6-00664",
+      "citation": "415 ILCS 15/10",
+      "quote": "The number and letters shall indicate the resin from which the container is made as follows: 1 and PETE for polyethylene terephthalate, 2 and HDPE for high density polyethylene, 3 and V for vinyl, 4 and LDPE for low density polyethylene, 5 and PP for polypropylene, 6 and PS for polystyrene, and 7 and Other for other materials, including multi-layer materials. Containers with labels or base cups of different material shall be coded by their primary, basic material."
+    },
+    {
+      "id": "dcv-v6-00675",
+      "citation": "420 ILCS 44/52",
+      "quote": "In that case, the Agency, in its discretion, may require a deposit to cover the cost of the service and witness fees."
+    },
+    {
+      "id": "dcv-v6-00688",
+      "citation": "5 ILCS 100/5-165",
+      "quote": "The ethics officer shall require that the ex parte communication promptly be made a part of the record of the rulemaking proceeding."
+    },
+    {
+      "id": "dcv-v6-00693",
+      "citation": "5 ILCS 465/11",
+      "quote": "An order of the Governor to fly the flag at half-staff may be for any length of time up to the greatest length of time enumerated in Section 7 of the United States Flag Code."
+    },
+    {
+      "id": "dcv-v6-00695",
+      "citation": "50 ILCS 125/7",
+      "quote": "Any local governmental agency, unless otherwise provided by any law specifically creating or governing any such agency, may provide by ordinance or resolution for the deduction, upon the written request of the employee, from the compensation of such employee for each regular payroll period the amount specified in such authorization for payment to any credit union specified in such authorization. For purposes of this Section, \"credit union\" means any cooperative society incorporated under \"The Illinois Credit Union Act\" or any federal credit union licensed by the United States."
+    },
+    {
+      "id": "dcv-v6-00701",
+      "citation": "50 ILCS 405/1.5a",
+      "quote": "The limitation prescribed in Section 1 of this Act shall not apply to any indebtedness of any town to establish, acquire by purchase or otherwise, construct, improve, extend, repair, equip, maintain and operate a public hospital."
+    },
+    {
+      "id": "dcv-v6-00705",
+      "citation": "510 ILCS 68/20-15",
+      "quote": "Permittees shall keep crocodilians maintained in suitable, strong, impact resistant, escape-proof enclosures at all times unless being used for bona fide educational programs or trips for veterinary care."
+    },
+    {
+      "id": "dcv-v6-00706",
+      "citation": "510 ILCS 68/30-10",
+      "quote": "Collection of wild turtles for races or other types of events involving congregating and gathering numbers of wild turtles is prohibited in counties where ranavirus has been documented. Inclusion on the county list shall be determined by administrative rule."
+    },
+    {
+      "id": "dcv-v6-00707",
+      "citation": "510 ILCS 70/3.03-1",
+      "quote": "This Section does not apply when the depiction has religious, political, scientific, educational, law enforcement or humane investigator training, journalistic, artistic, or historical value; or involves rodeos, sanctioned livestock events, or normal husbandry practices. The creation, sale, marketing, offering to sell or market, or possession of the depiction of animal cruelty is illegal regardless of whether the maiming, mutilation, torture, wounding, abuse, killing, or any other conduct took place in this State."
+    },
+    {
+      "id": "dcv-v6-00708",
+      "citation": "510 ILCS 70/3.03-1",
+      "quote": "The creation, sale, marketing, offering to sell or market, or possession of the depiction of animal cruelty is illegal regardless of whether the maiming, mutilation, torture, wounding, abuse, killing, or any other conduct took place in this State."
+    },
+    {
+      "id": "dcv-v6-00713",
+      "citation": "520 ILCS 5/1.4",
+      "quote": "Each rule shall be promulgated in accordance with the Illinois Administrative Procedure Act."
+    },
+    {
+      "id": "dcv-v6-00717",
+      "citation": "55 ILCS 5/1-4002",
+      "quote": "In this Division and all proceedings thereunder, the county whose legal voters shall petition the several county boards as aforesaid, shall be called the \"petitioning county,\" and the county to which said legal voters shall petition to be united and annexed shall be called the \"adjoining county.\""
+    },
+    {
+      "id": "dcv-v6-00718",
+      "citation": "55 ILCS 5/3-12007",
+      "quote": "(10) transfer from a position in one department to a position in another department involving similar qualifications, duties, responsibilities and salary. (11) procedures for authorized reinstatement within one year of persons who resign in good standing."
+    },
+    {
+      "id": "dcv-v6-00724",
+      "citation": "55 ILCS 5/3-9008",
+      "quote": "Prior to the signing of an order requiring a county to pay for attorney's fees or litigation expenses, the county shall be provided with a detailed copy of the invoice describing the fees, and the invoice shall include all activities performed in relation to the case and the amount of time spent on each activity."
+    },
+    {
+      "id": "dcv-v6-00725",
+      "citation": "55 ILCS 5/5-1028.1",
+      "quote": "Any unobligated balance remaining in the County Retailers' Occupation Tax Fund on December 31, 1989, which fund was abolished by Public Act 85-1135, and all receipts of county tax as a result of audits of liability periods prior to January 1, 1990, shall be paid into the Local Government Tax Fund, for distribution in the manner provided by Sections 25.05-2, 25.05-2a, 25.05-3, 25.05-3a, 25.05-10 and 25.05-10a of \"An Act to revise the law in relation to counties\", approved March 31, 1874, prior to the enactment of Public Act 85-1135."
+    },
+    {
+      "id": "dcv-v6-00744",
+      "citation": "605 ILCS 5/6-201.1",
+      "quote": "Be present at the district clerk's office annually on or before the last Tuesday in December of each year for the purpose of determining the tax levy to be certified by him to the county board in counties not under township organization, or by the township board of trustees or highway board of trustees, as the case may be, to the county clerk in counties having adopted township organization, as provided in this Code."
+    },
+    {
+      "id": "dcv-v6-00747",
+      "citation": "605 ILCS 5/9-124.1",
+      "quote": "Any resident of this State may enter complaint before the circuit court against any person or persons found violating this Section and the court shall issue a warrant for the arrest of such violators and have them brought forthwith before such court for examination."
+    },
+    {
+      "id": "dcv-v6-00749",
+      "citation": "610 ILCS 5/8",
+      "quote": "Those belonging to the first class shall go out of office at the end of one year, those of the second class at the end of two years, and in like manner those of each class shall go out of office at the expiration of a number of years corresponding to the number of his class; and all vacancies occurring by reason of expiration of term shall be filled by election for a term of years equal to the number of classes."
+    },
+    {
+      "id": "dcv-v6-00750",
+      "citation": "610 ILCS 5/8",
+      "quote": "All the corporate powers of every such corporation shall be vested in and be exercised by a board of directors, who shall be stockholders of the corporation, and shall be elected at the annual meetings of stockholders at the public office of such corporation within this state."
+    },
+    {
+      "id": "dcv-v6-00752",
+      "citation": "615 ILCS 5/14a",
+      "quote": "It is the express intention of this legislation that close cooperation shall exist between the Pollution Control Board, the Environmental Protection Agency, and the Department of Natural Resources and that every resource of State government shall be applied to the proper preservation and utilization of the waters of Lake Michigan."
+    },
+    {
+      "id": "dcv-v6-00762",
+      "citation": "625 ILCS 5/1-148.2",
+      "quote": "A moped is a motor-driven cycle, with or without optional power derived from manually operated pedals, whose speed attainable in one mile is at least 20 mph but not greater than 30 mph, and is equipped with a motor that produces 2 brake horsepower or less. If an internal combustion engine is used, the displacement shall not exceed 50 cubic centimeter displacement and the power drive system shall not require the operator to shift gears."
+    },
+    {
+      "id": "dcv-v6-00764",
+      "citation": "625 ILCS 5/1-187.001",
+      "quote": "(b) Any other similar violation of a law or local ordinance of any state relating to motor vehicle traffic control, other than a parking violation."
+    },
+    {
+      "id": "dcv-v6-00769",
+      "citation": "625 ILCS 5/11-611",
+      "quote": "No person shall drive or operate any motor vehicle on any street or highway in this State where the minimum allowable speed on that street or highway, as posted, is greater than the maximum attainable operating speed of the vehicle. Maximum attainable operating speed shall be determined by the manufacturer of the vehicle and clearly published in the manual of specifications and operation, or it shall be determined by applicable rule and regulation promulgated by the Secretary of State."
+    },
+    {
+      "id": "dcv-v6-00770",
+      "citation": "625 ILCS 5/11-710",
+      "quote": "(c) Motor vehicles being driven upon any roadway outside of a business or residence district in a caravan or motorcade whether or not towing other vehicles shall be so operated as to allow sufficient space between each such vehicle or combination of vehicles so as to enable any other vehicle to enter and occupy such space without danger. This provision shall not apply to funeral processions."
+    },
+    {
+      "id": "dcv-v6-00774",
+      "citation": "625 ILCS 5/15-107",
+      "quote": "Vehicles operating during daylight hours when transporting poles, pipes, machinery, or other objects of a structural nature that cannot readily be dismantled or disassembled are exempt from length limitations, provided that no object may exceed 80 feet in length and the overall dimension of the vehicle including the load may not exceed 100 feet."
+    },
+    {
+      "id": "dcv-v6-00779",
+      "citation": "625 ILCS 5/18c-6103",
+      "quote": "(1) Operate as a motor carrier of passengers unless the person possesses a valid license authorizing such operations."
+    },
+    {
+      "id": "dcv-v6-00781",
+      "citation": "625 ILCS 5/2-106",
+      "quote": "The Secretary of State shall prescribe or provide suitable forms of applications, certificates of title, registration cards, driver's licenses and such other forms requisite or deemed necessary to carry out the provisions of this Act and any other laws pertaining to vehicles the enforcement and administration of which are vested in the Secretary of State. Any entity or vendor providing services to or on behalf of the Secretary of State may also prescribe or provide suitable forms under this Section to the extent authorized by the Secretary of State and upon approval of the Secretary of State."
+    },
+    {
+      "id": "dcv-v6-00785",
+      "citation": "625 ILCS 5/3-114.1",
+      "quote": "The organization is specifically authorized to complete and execute the space reserved in the certificate of title for a dealer reassignment, notwithstanding that the organization is not a licensed dealer."
+    },
+    {
+      "id": "dcv-v6-00790",
+      "citation": "625 ILCS 5/4-103.3",
+      "quote": "(1) has not been prosecuted or convicted; (2) has been convicted of a different offense;"
+    },
+    {
+      "id": "dcv-v6-00792",
+      "citation": "625 ILCS 5/4-108",
+      "quote": "(a) Any person who violates or aids or abets in the violation of any of the provisions of Section 4-102, 4-103, 4-104 or 4-105 shall be guilty of such offense and be subject to the same sentence as if he had committed the offense himself. (b) Any person who is convicted of any offense under Chapter 4 of this Act, in addition to any other fines or penalties provided therein, may be required to compensate the victim, if known, involved in the related offense, for any loss that the victim sustains to his person or property."
+    },
+    {
+      "id": "dcv-v6-00794",
+      "citation": "625 ILCS 5/6-703",
+      "quote": "(b) As to other convictions, reported pursuant to Section 6-702, the licensing authority in the home state shall give such effect to the conduct as is provided by the laws of the home state."
+    },
+    {
+      "id": "dcv-v6-00799",
+      "citation": "625 ILCS 55/20",
+      "quote": "This Section is a limitation under subsection (i) of Section 6 of Article VII of the Illinois Constitution on the concurrent exercise by home rule units of powers and functions exercised by the State."
+    },
+    {
+      "id": "dcv-v6-00809",
+      "citation": "65 ILCS 5/11-135.5-60",
+      "quote": "This notification shall commence the period for the preparation of the Phase II technical and cost evaluations."
+    },
+    {
+      "id": "dcv-v6-00813",
+      "citation": "65 ILCS 5/11-20-15.1",
+      "quote": "(b) To perfect a lien under this Section, the municipality must, within one year after the cost is incurred for the activity, file notice of the lien in the office of the recorder in the county in which the abandoned residential property is located or, if the abandoned residential property is registered under the Torrens system, in the office of the Registrar of Titles of that county, a sworn statement setting out: (1) a description of the abandoned residential property that sufficiently identifies the parcel;"
+    },
+    {
+      "id": "dcv-v6-00814",
+      "citation": "65 ILCS 5/11-42-4",
+      "quote": "The corporate authorities of each municipality may license, tax, regulate, and prohibit runners for cabs, busses, railroads, ships, hotels, public houses, and other similar businesses."
+    },
+    {
+      "id": "dcv-v6-00815",
+      "citation": "65 ILCS 5/11-48.3-21",
+      "quote": "In case any officer whose signature appears upon any check or draft, issued pursuant to this Act, ceases (after attaching his or her signature) to hold office before the delivery thereof to the payee, his or her signature nevertheless shall be valid and sufficient for all purposes with the same effect as if he or she had remained in office until delivery thereof."
+    },
+    {
+      "id": "dcv-v6-00826",
+      "citation": "65 ILCS 60/1",
+      "quote": "Any owner of real estate on which there is any amount of past due special assessments as of July 1, 1947, may, on or before June 1, 1948, petition the officer authorized to collect the special assessments, describing the tract or tracts of land to which the petitioner desires to have the benefits of this Act apply and in such petition shall stipulate a day, not later than 90 days after the filing thereof, on or before which he will pay the full amount due as determined under this Act."
+    },
+    {
+      "id": "dcv-v6-00828",
+      "citation": "70 ILCS 1215/25",
+      "quote": "No officer or employee in the service of such Park Employees' and Retirement Board Employees' Annuity and Benefit Fund shall, directly or indirectly, give or hand over to any officer or employee in said classified civil service, or to any senator, representative, alderperson, councilman, park commissioner or trustee, any money or other valuable thing on account of or to be applied to the promotion of any party or political object whatever."
+    },
+    {
+      "id": "dcv-v6-00831",
+      "citation": "70 ILCS 1310/11",
+      "quote": "Second: The board of park commissioners shall transmit a certified copy of the ordinance and shall certify the proposition to the proper election officials in accordance with the general election law. Third: The board of park commissioners shall cause an officer designated by it to give notice of the referendum as required by the general election law."
+    },
+    {
+      "id": "dcv-v6-00836",
+      "citation": "70 ILCS 1801/15",
+      "quote": "All property of the Port District shall be public grounds owned by a municipal corporation and used exclusively for public purposes within the tax exemption provisions of Sections 15-10, 15-15, 15-20, 15-30, 15-75, 15-140, 15-155, and 15-160 of the Property Tax Code."
+    },
+    {
+      "id": "dcv-v6-00837",
+      "citation": "70 ILCS 1801/95",
+      "quote": "The governing and administrative body of the Port District shall be a Board consisting of 9 members, to be known as the Alexander-Cairo Port District Board."
+    },
+    {
+      "id": "dcv-v6-00839",
+      "citation": "70 ILCS 1815/4",
+      "quote": "All property of every kind owned by the Port District shall be exempt from taxation, provided that a tax may be levied upon a lessee of the Port District by reason of the value of a leasehold estate separate and apart from the fee simple title, or upon such improvements as are constructed and owned by others than the Port District."
+    },
+    {
+      "id": "dcv-v6-00852",
+      "citation": "70 ILCS 2605/11.4",
+      "quote": "The sanitary district is expressly authorized to procure from any federal, state or local governmental unit or agency such surplus materials, as may be made available without conforming to the competitive bidding requirements of this Act."
+    },
+    {
+      "id": "dcv-v6-00853",
+      "citation": "70 ILCS 2605/11.4",
+      "quote": "Regular employment contracts, whether classified in civil service or not, shall not be subject to the competitive bidding requirements of this Act."
+    },
+    {
+      "id": "dcv-v6-00857",
+      "citation": "70 ILCS 2605/5.13",
+      "quote": "Copies of the annual financial report shall be made conveniently available in the office of the Sanitary District to the public and shall be issued to any person upon payment of a reasonable amount therefor."
+    },
+    {
+      "id": "dcv-v6-00860",
+      "citation": "70 ILCS 2805/82",
+      "quote": "If no award is made within that time, another advertisement for proposals or bids for the performance of the work, as in the first instance, may be made, and thereafter the committee shall proceed in the manner above provided in this Act. Such a readvertisement shall be deemed a rejection of all former bids, and thereupon the bonds corresponding to the bids so rejected shall be returned to the proper parties."
+    },
+    {
+      "id": "dcv-v6-00869",
+      "citation": "70 ILCS 405/12",
+      "quote": "The Department shall pay all expenses for the issuance of such notices and the conduct of such hearings and referenda and shall supervise the conduct of such hearings and referenda."
+    },
+    {
+      "id": "dcv-v6-00871",
+      "citation": "70 ILCS 5/10",
+      "quote": "Other action of the board may be by resolution, motion or in other appropriate form, and executive or ministerial duties may be delegated to one or more commissioners or to an authorized officer, employee, agent, attorney, or other representative of the Authority. [...] The enacting clause of any ordinance shall be substantially as follows: \"Be it ordained by the Board of Commissioners of ...."
+    },
+    {
+      "id": "dcv-v6-00873",
+      "citation": "70 ILCS 5/22.6",
+      "quote": "The Rail Authority and the Rail Corporation shall be exempt from all State and unit of local government taxes and registration and license fees."
+    },
+    {
+      "id": "dcv-v6-00881",
+      "citation": "70 ILCS 705/15b",
+      "quote": "This Section is a limitation under subsection (i) of Section 6 of Article VII of the Illinois Constitution on the concurrent exercise by home rule units of the powers and functions exercised by the State."
+    },
+    {
+      "id": "dcv-v6-00886",
+      "citation": "705 ILCS 310/2",
+      "quote": "In a county with a population of at least 3,000,000 in which a jury administrator or jury commissioners have been appointed, the jury administrator or commissioners, upon entering upon the duties of their office, and every 4 years thereafter, shall prepare a list of all legal voters and all Illinois driver's license, Illinois Identification Card, and Illinois Person with a Disability Identification Card holders, and claimants for unemployment insurance of each town or precinct of the county possessing the necessary legal qualifications for jury duty, to be known as the jury list."
+    },
+    {
+      "id": "dcv-v6-00895",
+      "citation": "720 ILCS 5/11-24",
+      "quote": "(a) In this Section: \"Child\" means a person under 18 years of age. \"Child sex offender\" has the meaning ascribed to it in Section 11-0.1 of this Code."
+    },
+    {
+      "id": "dcv-v6-00899",
+      "citation": "720 ILCS 5/11-9.1A",
+      "quote": "(g) A person convicted of permitting the sexual abuse of a child is guilty of a Class 1 felony."
+    },
+    {
+      "id": "dcv-v6-00901",
+      "citation": "720 ILCS 5/12-37",
+      "quote": "This is a denial and limitation of home rule powers and functions under subsection (h) of Section 6 of Article VII of the Illinois Constitution."
+    },
+    {
+      "id": "dcv-v6-00902",
+      "citation": "720 ILCS 5/12-37",
+      "quote": "A home rule unit may not regulate the possession and carrying of caustic and noxious substances and any ordinance or local law contrary to this Section is declared void. This is a denial and limitation of home rule powers and functions under subsection (h) of Section 6 of Article VII of the Illinois Constitution."
+    },
+    {
+      "id": "dcv-v6-00905",
+      "citation": "720 ILCS 5/25-4",
+      "quote": "(a) A person commits looting when he or she knowingly without authority of law or the owner enters any home or dwelling or upon any premises of another, or enters any commercial, mercantile, business, or industrial building, plant, or establishment, in which normal security of property is not present by virtue of a hurricane, fire, or vis major of any kind or by virtue of a riot, mob, or other human agency, and obtains or exerts control over property of the owner."
+    },
+    {
+      "id": "dcv-v6-00920",
+      "citation": "730 ILCS 140/2",
+      "quote": "The imposition of punishment on errant citizens through incarceration requires the State, any unit of local government or a county sheriff, to exercise its coercive police powers over individuals and is thus distinguishable from privatization in other areas of government."
+    },
+    {
+      "id": "dcv-v6-00924",
+      "citation": "730 ILCS 5/3-3-15",
+      "quote": "A grant of medical release under this Article shall be an act of executive and legislative grace and shall be at the sole discretion of the Prisoner Review Board."
+    },
+    {
+      "id": "dcv-v6-00935",
+      "citation": "735 ILCS 5/5-102",
+      "quote": "Such instrument shall be signed by some responsible person, being a resident of this State, and be approved by the clerk, and shall bind such person to pay all costs which may accrue in such action, either to the opposing party or to any of the officers of the court in which the action is commenced, or to which it is removed by change of place of trial or appeal."
+    },
+    {
+      "id": "dcv-v6-00947",
+      "citation": "75 ILCS 12/20",
+      "quote": "The State Librarian may award grants that develop, expand, or support the acquisition of and access to e-books and e-audiobooks in Illinois."
+    },
+    {
+      "id": "dcv-v6-00953",
+      "citation": "750 ILCS 80/15",
+      "quote": "Nothing in this Act shall interfere with or regulate the religious practice of any religious denomination or Indian Nation or Tribe or Native Group."
+    },
+    {
+      "id": "dcv-v6-00957",
+      "citation": "755 ILCS 5/24-11",
+      "quote": "If notice of the hearing on any account except the final account of a representative is served at least 10 days before the hearing on the account and the court appoints a guardian ad litem to represent the ward at the hearing, in the absence of fraud, accident or mistake the account as approved is binding upon the ward. [...] (c) On final settlement of the estate of a ward or sooner if the court directs, the representative shall pay and deliver the estate and title papers of the ward in the hands of the representative or with which he is chargeable to the person entitled thereto."
+    },
+    {
+      "id": "dcv-v6-00959",
+      "citation": "755 ILCS 75/2",
+      "quote": "(3) \"Descendant\" means an individual who follows another individual in lineage, in the direct line of descent from the other individual."
+    },
+    {
+      "id": "dcv-v6-00961",
+      "citation": "755 ILCS 8/104",
+      "quote": "The record may be limited to the fact that the communication occurred. (b) Courts may communicate concerning schedules, calendars, court records, and other administrative matters without making a record."
+    },
+    {
+      "id": "dcv-v6-00966",
+      "citation": "765 ILCS 5/8",
+      "quote": "Dated (insert date) (signature of grantor or grantors) The names of the parties shall be typed or printed below the signatures."
+    },
+    {
+      "id": "dcv-v6-00969",
+      "citation": "765 ILCS 710/1.1",
+      "quote": "In the event of a sale, lease, transfer or other direct or indirect disposition of residential real property, other than to the holder of a lien interest in such property, by a lessor who has received a security deposit or prepaid rent from a lessee, the transferee of such property shall be liable to that lessee for any security deposit, including statutory interest, or prepaid rent which the lessee has paid to the transferor. Transferor shall remain jointly and severally liable with the transferee to the lessee for such security deposit or prepaid rent."
+    },
+    {
+      "id": "dcv-v6-00971",
+      "citation": "765 ILCS 740/5",
+      "quote": "The formula shall include all those that use that public utility service and may reflect variations in apartment size or usage."
+    },
+    {
+      "id": "dcv-v6-00972",
+      "citation": "765 ILCS 740/5",
+      "quote": "(b) No condominium or common interest community association may demand payment for master metered public utility services from a unit owner of a proportionate share for public utility service without the condominium or common interest community association first providing the unit owner with a copy in writing of the formula used by the association for allocating the public utility payments among the unit owners."
+    },
+    {
+      "id": "dcv-v6-00974",
+      "citation": "775 ILCS 15/4",
+      "quote": "No financial institution shall accept any letter of credit or any other document which evidences the transfer of funds or of credit which contains any provision which discriminates or appears to discriminate against any person on the basis of race, color, creed, national ancestry or sex or on ethnic or religious grounds, or of any connection between that person and any other entity."
+    },
+    {
+      "id": "dcv-v6-00998",
+      "citation": "815 ILCS 5/8c",
+      "quote": "A person subject to registration under Section 8 of this Act may conduct transactions in a language other than English through an employee or agent acting as interpreter or through an interpreter provided by the customer."
+    },
+    {
+      "id": "dcv-v6-00999",
+      "citation": "815 ILCS 505/2C",
+      "quote": "If the furnishing of merchandise, whether under purchase order or a contract of sale, is conditioned on the consumer's providing credit references or having a credit rating acceptable to the seller and the seller rejects the credit application of that consumer, the seller must return to the consumer any down payment, whether such down payment is in the form of money, goods, chattels or otherwise, made under that purchase order or contract and may not retain any part thereof."
+    },
+    {
+      "id": "dcv-v6-01006",
+      "citation": "815 ILCS 665/10",
+      "quote": "A provision contained in or executed in connection with a building and construction contract to be performed in Illinois that makes the contract subject to the laws of another state or that requires any litigation, arbitration, or dispute resolution to take place in another state is against public policy."
+    },
+    {
+      "id": "dcv-v6-01008",
+      "citation": "820 ILCS 185/45",
+      "quote": "(b) Whoever willfully violates any of the provisions of this Act or any rule adopted under this Act shall be liable to the employee for punitive damages in an amount equal to the penalties assessed in subsection (a) of this Section. [...] Any uncollected amount shall be subject to the provisions of the Illinois State Collection Act of 1986."
+    },
+    {
+      "id": "dcv-v6-01012",
+      "citation": "820 ILCS 405/2107",
+      "quote": "The Special Programs Fund shall be held separate and apart from all public moneys or funds of this State."
+    },
+    {
+      "id": "dcv-v6-01017",
+      "citation": "11 Ill. Adm. Code 1409.150",
+      "quote": "A copy of this information shall be transmitted to the Illinois Racing Board."
+    },
+    {
+      "id": "dcv-v6-01022",
+      "citation": "11 Ill. Adm. Code 308.10",
+      "quote": "The organization licensee shall designate the number of contests for the Pick (n) and the method for pool calculation prior to the start of its meet."
+    },
+    {
+      "id": "dcv-v6-01027",
+      "citation": "14 Ill. Adm. Code 176.800",
+      "quote": "Section 176.800 Electronic Notary Public Commission Required a) A person may not perform an electronic notarial act unless the Secretary of State has approved the electronic notary public commission of a person under 5 ILCS 312/2-102 and the traditional notary public commission is in effect. b) The Secretary of State may suspend or revoke the commission of a notary public who performs or offers to perform an electronic notarial act without an electronic notary public commission that has been approved by the Secretary of State, as required by Section 176.980(b)."
+    },
+    {
+      "id": "dcv-v6-01044",
+      "citation": "2 Ill. Adm. Code 5176.430",
+      "quote": "Section 5176.430 Circuit Court Review A requester also has the right to file suit for injunctive or declaratory relief in the Circuit Court for Sangamon County or for the county in which the requester resides, in accordance with the procedures set forth in Section 11 of FOIA."
+    },
+    {
+      "id": "dcv-v6-01046",
+      "citation": "2 Ill. Adm. Code 5375.10",
+      "quote": "Section 5375.10 Information a) The public can obtain information about the Illinois Student Assistance Commission (ISAC) and its programs by contacting one of ISAC's offices located in Deerfield, Chicago or Springfield."
+    },
+    {
+      "id": "dcv-v6-01050",
+      "citation": "20 Ill. Adm. Code 1720.330",
+      "quote": "2) Has at least 3 years of experience as a full-time law enforcement officer; 3) Has completed formal training regarding death and homicide investigations; and 4) Has substantial experience in a supervisory or leadership role in homicide investigations."
+    },
+    {
+      "id": "dcv-v6-01063",
+      "citation": "29 Ill. Adm. Code 115.20",
+      "quote": "Section 115.20 Definitions \"Director\" means the Director of the Illinois Emergency Management Agency. \"IEMA\" means the Illinois Emergency Management Agency."
+    },
+    {
+      "id": "dcv-v6-01064",
+      "citation": "29 Ill. Adm. Code 430.80",
+      "quote": "Any enforcement or civil action required under this Part shall be carried out pursuant to SARA and the Illinois Emergency Management Agency Act and this Part."
+    },
+    {
+      "id": "dcv-v6-01070",
+      "citation": "32 Ill. Adm. Code 601.10",
+      "quote": "The requirements of this Part are in addition to, and not in substitution for, the requirements of 32 Ill."
+    },
+    {
+      "id": "dcv-v6-01077",
+      "citation": "35 Ill. Adm. Code 201.151",
+      "quote": "This rule shall not apply to emission sources, such as stock piles of particulate matter which, because of the disperse nature of such emission sources, cannot reasonably be expected to be emitted through a stack."
+    },
+    {
+      "id": "dcv-v6-01084",
+      "citation": "35 Ill. Adm. Code 219.583",
+      "quote": "The test shall be performed on each tank vent pipe within two hours after product delivery into the respective storage tank."
+    },
+    {
+      "id": "dcv-v6-01085",
+      "citation": "35 Ill. Adm. Code 223.280",
+      "quote": "Section 223.280 Calculating Illinois Sales If direct sales data for Illinois are not available, sales may be estimated by prorating national or regional sales data by population."
+    },
+    {
+      "id": "dcv-v6-01086",
+      "citation": "35 Ill. Adm. Code 237 Appendix A",
+      "quote": "Section 237.APPENDIX A Rule into Section Table RULE SECTION 501 237.101 502 237.102 503 237.120 504(a) 237.201 504(b) 237.202 504(c) 237.204 504(d) 237.203 504(e) 237.205 504(f) 237.207 504(g) 237.206 505 237.103 506 237.110 550 237.130"
+    },
+    {
+      "id": "dcv-v6-01087",
+      "citation": "35 Ill. Adm. Code 270.104",
+      "quote": "Section 270.104 Initial CAAPP Application \"Initial CAAPP application\" means the first CAAPP application submitted for an existing CAAPP source."
+    },
+    {
+      "id": "dcv-v6-01088",
+      "citation": "35 Ill. Adm. Code 302.508",
+      "quote": "Section 302.508 Thermal Standards for Sources Under Construction But Not In Operation on January 1, 1971 Any effluent source under construction but not in operation on January 1, 1971, must meet all the requirements of Section 302.507 and must meet the following restrictions: a) The bottom, the shore, the hypolimnion, and the thermocline must not be affected by any heated effluent."
+    },
+    {
+      "id": "dcv-v6-01091",
+      "citation": "35 Ill. Adm. Code 364.402",
+      "quote": "4) the construction of new trunk and lateral sewers to provide an extension of service from an existing collection system or the rehabilitation of existing sewers, which will not eliminate excessive infiltration/inflow."
+    },
+    {
+      "id": "dcv-v6-01107",
+      "citation": "38 Ill. Adm. Code 200.221",
+      "quote": "Section 200.221 Requirements as to Proper Form Any document filed with the Department pursuant to the Act shall be prepared in accordance with the form, if any, prescribed therefor by the Director."
+    },
+    {
+      "id": "dcv-v6-01110",
+      "citation": "38 Ill. Adm. Code 360.820",
+      "quote": "6) Notify the Department before a new trainer begins providing instruction of the vendor's responsible pawnbroker training. [...] B) The name of the trainer"
+    },
+    {
+      "id": "dcv-v6-01111",
+      "citation": "41 Ill. Adm. Code 174.370",
+      "quote": "Code 175 and 176 and this Part and manufacturer's instructions and otherwise shall be kept in good operating condition at all times."
+    },
+    {
+      "id": "dcv-v6-01124",
+      "citation": "44 Ill. Adm. Code 5020.510",
+      "quote": "Section 5020.510 Criteria Used to Set Service Charges a) Total service charges collected shall be based on the pro rated expenses incurred annually by the SASP."
+    },
+    {
+      "id": "dcv-v6-01127",
+      "citation": "47 Ill. Adm. Code 100.100",
+      "quote": "Procedures specified in Section 100.90 of this Part will be followed for complaints by applicants for energy assistance."
+    },
+    {
+      "id": "dcv-v6-01138",
+      "citation": "50 Ill. Adm. Code 2010.10",
+      "quote": "Section 2010.10 Purpose The purpose of this Part is to provide prospective purchasers with clear and unambiguous statements in the advertisement of Medicare supplement insurance; to assure the clear and truthful disclosure of the benefits, limitations and exclusions of policies sold as Medicare supplement insurance."
+    },
+    {
+      "id": "dcv-v6-01139",
+      "citation": "50 Ill. Adm. Code 2903.10",
+      "quote": "Section 2903.10 Authority This Part is promulgated by the Director of Insurance under Section 401 of the Illinois Insurance Code (Ill."
+    },
+    {
+      "id": "dcv-v6-01155",
+      "citation": "62 Ill. Adm. Code 1817.43",
+      "quote": "1) With the approval of the Department, any flow from mined areas abandoned before May 3, 1978, and any flow from undisturbed areas or reclaimed areas, after meeting the criteria of Section 1817.46 for siltation structure removal, may be diverted from disturbed areas by means of temporary or permanent diversions."
+    },
+    {
+      "id": "dcv-v6-01158",
+      "citation": "62 Ill. Adm. Code 240.410",
+      "quote": "The location shall be no less than 10 feet from the nearest drilling unit boundary line. d) Coal Mine Gas Wells A well drilled into a mine void or a pillar within the mined out area for the production of gas from an abandoned coal mine is exempt from the spacing requirements of this Subpart."
+    },
+    {
+      "id": "dcv-v6-01161",
+      "citation": "68 Ill. Adm. Code 1160.35",
+      "quote": "No fee is required for name and address changes on Division records when no duplicate license is replaced."
+    },
+    {
+      "id": "dcv-v6-01164",
+      "citation": "68 Ill. Adm. Code 1291.310",
+      "quote": "If the dispensing organization cannot identify the reason for the mistake within two calendar days after first discovery, it shall inform the Department immediately in writing of the imbalance and the corrective action taken to date."
+    },
+    {
+      "id": "dcv-v6-01165",
+      "citation": "68 Ill. Adm. Code 1320.60",
+      "quote": "Section 1320.60 Inactive Status a) Any licensed optometrist who notifies the Division in writing on forms prescribed by the Division may elect to place his/her license on inactive status and shall be excused from the payment of renewal fees until he/she notifies the Division in writing of the desire to resume active status. b) Any licensee seeking restoration from inactive status shall do so in accordance with Section 1320.70 of this Part."
+    },
+    {
+      "id": "dcv-v6-01172",
+      "citation": "74 Ill. Adm. Code 735.200",
+      "quote": "\"Processor\" means a v endor designated by the Treasurer, through a competitive bidding process, to provide electronic payment services via point-of-sale (POS), internet and telephone for the E-Pay Program. \"Public Agency\" has the same meaning as in Section 17 of the Act."
+    },
+    {
+      "id": "dcv-v6-01174",
+      "citation": "74 Ill. Adm. Code 900.20",
+      "quote": "For agencies whose computer systems automatically record an approval date as a voucher is prepared, the \"Date of Approval\" shall be defined as the approval date recorded by the computer system."
+    },
+    {
+      "id": "dcv-v6-01186",
+      "citation": "77 Ill. Adm. Code 696.100",
+      "quote": "\"Contact\" means a person who has been exposed to M. tuberculosis by sharing air space with a person with infectious TB."
+    },
+    {
+      "id": "dcv-v6-01189",
+      "citation": "77 Ill. Adm. Code 785.860",
+      "quote": "Section 785.860 Cooking the Batch Each batch of cheese within the cooker, including the optional ingredients shall be thoroughly commingled and the contents pasteurized at a temperature of at least 158º F. and held at that temperature for not less than 30 seconds."
+    },
+    {
+      "id": "dcv-v6-01197",
+      "citation": "8 Ill. Adm. Code 1300.315",
+      "quote": "5) Any product remaining at the original location past the transition period shall be destroyed in accordance with the provisions of Subpart I (Destruction of Cannabis). 6) The craft grower shall notify the Department in writing or by electronic transmission once the transfer of inventory is complete and production has begun at the new location."
+    },
+    {
+      "id": "dcv-v6-01199",
+      "citation": "8 Ill. Adm. Code 258 Appendix B",
+      "quote": "Section 258.APPENDIX B Target Analyte List PESTICIDES CAS NO. a RECOMMENDED TEST METHOD b Acetochlor 34256-82-1 8151 Alachlor 15972-60-8 8081 Atrazine 1912-24-9 8141 Butylate 2008-41-5 8270 Chlorpyrifos 2921-88-2 8141 Cyanazine 21725-46-2 8141 Carbofuran 1563-66-2 8270 2,4-D 94-75-7 8151 Metolachlor 51218-45-2 8151 Metribuzin 21087-64-9 8270 Pendimethalin 40487-42-1 8091 Simazine 122-34-9 8141 Terbufos 13071-79-9 8141 Trifluralin 1582-09-8 8091 NUTRIENTS Ammonia (as N) Nitrate (as N) Phosphorous (Bray P1) a Chemical Abstract Service b USEPA Test Method (SW-846)"
+    },
+    {
+      "id": "dcv-v6-01203",
+      "citation": "80 Ill. Adm. Code 1125.80",
+      "quote": "Section 1125.80 Hearings a) Except as otherwise provided in this Section, hearings on fair share fee objections shall proceed in the same manner as hearings in both contested cases, as set forth in 80 Ill."
+    },
+    {
+      "id": "dcv-v6-01216",
+      "citation": "86 Ill. Adm. Code 107.200",
+      "quote": "TeleFile Filers who are married and file joint returns will receive two PINs."
+    },
+    {
+      "id": "dcv-v6-01223",
+      "citation": "89 Ill. Adm. Code 113.400",
+      "quote": "Section 113.400 Description of the Interim Assistance Program a) The Interim Assistance program provides - financial and medical assistance to individuals while an application for Supplemental Security Income (SSI) is pending if the Department determines that the individual will more likely than not be eligible for SSI."
+    },
+    {
+      "id": "dcv-v6-01224",
+      "citation": "89 Ill. Adm. Code 140.31",
+      "quote": "Such records must be retained for a period of not less than three years from the date of service or as provided by applicable State law, whichever period is longer, except that if an audit is initiated within the required retention period the records must be retained until the audit is completed and every exception resolved by settlement or by the Director's final decision. c) All records required to be maintained shall be available for inspection by authorized Department personnel during normal business hours."
+    },
+    {
+      "id": "dcv-v6-01227",
+      "citation": "89 Ill. Adm. Code 146.440",
+      "quote": "Section 146.440 Home Transfusion Arrangements a) The State Hemophilia Program shall assist patients for whom the Hemophilia Treatment Center hematologists request assistance in securing and funding home transfusion materials, including the necessary anti-hemophilia factors in coordination with their insurance coverage. The obligation for training and supervision of patients shall remain with the center directors."
+    },
+    {
+      "id": "dcv-v6-01233",
+      "citation": "89 Ill. Adm. Code 302.390",
+      "quote": "10) The Department's Early Childhood Program conducts developmental and social-emotional screenings of children in foster care, birth to age five years, to assess developmental, social-emotional and/or mental health needs."
+    },
+    {
+      "id": "dcv-v6-01236",
+      "citation": "89 Ill. Adm. Code 401 Appendix A",
+      "quote": "Full License Issued after a child welfare agency has completed its provisional license period when the agency is in reasonable compliance with licensing standards and has demonstrated the ability to operate the child welfare agency responsibly. Conditional License Issued for not more than six months to enable a child welfare agency to correct deficiencies in its operations which do not jeopardize the health, safety, morals or welfare of the children served."
+    },
+    {
+      "id": "dcv-v6-01237",
+      "citation": "89 Ill. Adm. Code 401 Appendix A",
+      "quote": "Allows the Department of Children and Family Services to evaluate the quality of licensing and child welfare services provided by the agency. A provisional license may also be issued when a child welfare agency reapplies for licensure after the prior license was voluntarily surrendered, revoked or the Department refused to renew the license."
+    },
+    {
+      "id": "dcv-v6-01239",
+      "citation": "89 Ill. Adm. Code 404.56",
+      "quote": "Section 404.56 Supervision An a pplicant with qualifications under Section 404.52(c)(2) or (3) approved for the child care supervisor shall be under the direct supervision of a program administrator or a residential case management supervisor."
+    },
+    {
+      "id": "dcv-v6-01246",
+      "citation": "92 Ill. Adm. Code 1500.200",
+      "quote": "Section 1500.200 High Freight Platforms The distance from the centerlines of subsidiary tracks to the faces or edges of high platforms from which freight is handled to or from cars shall not exceed 6 feet 2 inches. The minimum horizontal clearance in the area above the floor of such platforms shall be 28 inches greater than the distance from the centerline of the subsidiary track to the face or edge of the platform."
+    },
+    {
+      "id": "dcv-v6-01247",
+      "citation": "92 Ill. Adm. Code 1545.210",
+      "quote": "5) No food or beverages shall be stored in toilet rooms or in an area exposed to a toxic material."
+    },
+    {
+      "id": "dcv-v6-01249",
+      "citation": "92 Ill. Adm. Code 3040.8",
+      "quote": "Code 171 (Department of Transportation) pursuant to P.A. 104-0025, at 49 Ill."
+    },
+    {
+      "id": "dcv-v6-01254",
+      "citation": "92 Ill. Adm. Code 554.201",
+      "quote": "Section 554.201 Permits for Single Trip Movements a) Permits for single trip movements are issued for one-way movement. These permits are valid for 5 working days."
+    },
+    {
+      "id": "dcv-v6-01266",
+      "citation": "IL Const art. I, § 20",
+      "quote": "INDIVIDUAL DIGNITY To promote individual dignity, communications that portray criminality, depravity or lack of virtue in, or that incite violence, hatred, abuse or hostility toward, a person or group of persons by reason of or by reference to religious, racial, ethnic, national or regional affiliation are condemned."
+    },
+    {
+      "id": "dcv-v6-01267",
+      "citation": "IL Const art. I, § 21",
+      "quote": "QUARTERING OF SOLDIERS No soldier in time of peace shall be quartered in a house without the consent of the owner; nor in time of war except as provided by law."
+    },
+    {
+      "id": "dcv-v6-01277",
+      "citation": "IL Const art. III, § 2",
+      "quote": "VOTING DISQUALIFICATIONS A person convicted of a felony, or otherwise under sentence in a correctional institution or jail, shall lose the right to vote, which right shall be restored not later than upon completion of his sentence."
+    },
+    {
+      "id": "dcv-v6-01279",
+      "citation": "IL Const art. III, § 5",
+      "quote": "BOARD OF ELECTIONS A State Board of Elections shall have general supervision over the administration of the registration and election laws throughout the State. The General Assembly by law shall determine the size, manner of selection and compensation of the Board."
+    },
+    {
+      "id": "dcv-v6-01287",
+      "citation": "IL Const art. IV, § 5",
+      "quote": "Special sessions of the General Assembly may also be convened by joint proclamation of the presiding officers of both houses, issued as provided by law."
+    },
+    {
+      "id": "dcv-v6-01288",
+      "citation": "IL Const art. IV, § 6",
+      "quote": "(b) On the first day of the January session of the General Assembly in odd-numbered years, the Secretary of State shall convene the House of Representatives to elect from its membership a Speaker of the House of Representatives as presiding officer, and the Governor shall convene the Senate to elect from its membership a President of the Senate as presiding officer. [...] A member may be expelled only once for the same offense."
+    },
+    {
+      "id": "dcv-v6-01289",
+      "citation": "IL Const art. IV, § 7",
+      "quote": "(a) Committees of each house, joint committees of the two houses and legislative commissions shall give reasonable public notice of meetings, including a statement of subjects to be considered. (b) Each house shall keep a journal of its proceedings and a transcript of its debates."
+    },
+    {
+      "id": "dcv-v6-01293",
+      "citation": "IL Const art. IX, § 4",
+      "quote": "(a) Except as otherwise provided in this Section, taxes upon real property shall be levied uniformly by valuation ascertained as the General Assembly shall provide by law."
+    },
+    {
+      "id": "dcv-v6-01294",
+      "citation": "IL Const art. IX, § 6",
+      "quote": "EXEMPTIONS FROM PROPERTY TAXATION The General Assembly by law may exempt from taxation only the property of the State, units of local government and school districts and property used exclusively for agricultural and horticultural societies, and for school, religious, cemetery and charitable purposes."
+    },
+    {
+      "id": "dcv-v6-01295",
+      "citation": "IL Const art. IX, § 7",
+      "quote": "OVERLAPPING TAXING DISTRICTS The General Assembly may provide by law for fair apportionment of the burden of taxation of property situated in taxing districts that lie in more than one county."
+    },
+    {
+      "id": "dcv-v6-01297",
+      "citation": "IL Const art. IX, § 9",
+      "quote": "(d) State debt may be incurred by law in an amount not exceeding 15% of the State's appropriations for that fiscal year to meet deficits caused by emergencies or failures of revenue."
+    },
+    {
+      "id": "dcv-v6-01301",
+      "citation": "IL Const art. V, § 17",
+      "quote": "COMPTROLLER - DUTIES The Comptroller, in accordance with law, shall maintain the State's central fiscal accounts, and order payments into and out of the funds held by the Treasurer."
+    },
+    {
+      "id": "dcv-v6-01311",
+      "citation": "IL Const art. VI, § 13",
+      "quote": "(a) The Supreme Court shall adopt rules of conduct for Judges and Associate Judges."
+    },
+    {
+      "id": "dcv-v6-01322",
+      "citation": "IL Const art. VII, § 1",
+      "quote": "MUNICIPALITIES AND UNITS OF LOCAL GOVERNMENT \"Municipalities\" means cities, villages and incorporated towns. \"Units of local government\" means counties, municipalities, townships, special districts, and units, designated as units of local government by law, which exercise limited governmental powers or powers in respect to limited governmental subjects, but does not include school districts."
+    },
+    {
+      "id": "dcv-v6-01325",
+      "citation": "IL Const art. VII, § 2",
+      "quote": "(b) County boundaries shall not be changed unless approved by referendum in each county affected."
+    },
+    {
+      "id": "dcv-v6-01326",
+      "citation": "IL Const art. VII, § 3",
+      "quote": "No county, other than Cook County, may change its method of electing board members except as approved by county-wide referendum."
+    },
+    {
+      "id": "dcv-v6-01329",
+      "citation": "IL Const art. VII, § 7",
+      "quote": "(5) to incur debt except as limited by law and except that debt payable from ad valorem property tax receipts shall mature within 40 years from the time it is incurred; and (6) to levy or impose additional taxes upon areas within their boundaries in the manner provided by law for the provision of special services to those areas and for the payment of debt incurred in order to provide those special services."
+    },
+    {
+      "id": "dcv-v6-01340",
+      "citation": "IL Const art. XIII, § 8",
+      "quote": "BRANCH BANKING Branch banking shall be authorized only by law approved by three-fifths of the members voting on the question or a majority of the members elected, whichever is greater, in each house of the General Assembly."
+    },
+    {
+      "id": "dcv-v6-01347",
+      "citation": "SCt Rule 1.15",
+      "quote": "(d) A lawyer must deposit in a client trust account funds received to secure payment of legal fees and expenses, to be withdrawn by the lawyer only as fees are earned and expenses are incurred."
+    },
+    {
+      "id": "dcv-v6-01349",
+      "citation": "SCt Rule 1.18",
+      "quote": "[2] Not all persons who communicate information to a lawyer are prospective clients. A person becomes a prospective client by consulting with a lawyer about the possibility of forming a client-lawyer relationship with respect to a matter."
+    },
+    {
+      "id": "dcv-v6-01352",
+      "citation": "SCt Rule 10-101",
+      "quote": "(h) Courts and clerk offices and their websites must use the promotional materials designed and distributed by the Illinois Supreme Court Commission on Access to Justice to promote standardized court forms to litigants or lawyers. [...] (a) This rule and the Court’s accompanying administrative order, M.R. 25401, were adopted to set out a formal process for the development, review and approval of standardized court forms for use in the Illinois courts."
+    },
+    {
+      "id": "dcv-v6-01355",
+      "citation": "SCt Rule 105",
+      "quote": "Service may be made by an officer or by any person over 18 years of age not a party to the action. Proof of service by an officer may be made by return as in the case of a summons."
+    },
+    {
+      "id": "dcv-v6-01360",
+      "citation": "SCt Rule 136",
+      "quote": "If a pleader can in good faith deny all the allegations in a paragraph of the opposing party’s pleading, or all the allegations in the paragraph that are not specifically admitted, he may do so without paraphrasing or separately describing each allegation denied. (b) Pleadings after Reply."
+    },
+    {
+      "id": "dcv-v6-01361",
+      "citation": "SCt Rule 137",
+      "quote": "If a pleading, motion, or other document is signed in violation of this rule, the court, upon motion or upon its own initiative, may impose upon the person who signed it, a represented party, or both, an appropriate sanction, which may include an order to pay to the other party or parties the amount of reasonable expenses incurred because of the filing of the pleading, motion or other document, including a reasonable attorney fee. (b) Procedure for Alleging Violations of This Rule."
+    },
+    {
+      "id": "dcv-v6-01365",
+      "citation": "SCt Rule 187",
+      "quote": "The determination of any issue of fact in connection with such a motion does not constitute a determination of the merits of the case or any aspect thereof. (c) Proceedings upon granting of motions."
+    },
+    {
+      "id": "dcv-v6-01366",
+      "citation": "SCt Rule 19",
+      "quote": "The notice shall identify the particular statute, ordinance, regulation, or other law, and shall briefly describe the nature of the constitutional or preemption challenge."
+    },
+    {
+      "id": "dcv-v6-01370",
+      "citation": "SCt Rule 2.13",
+      "quote": "(C) A judge shall not approve compensation of appointees beyond the fair value of services rendered. Comments [1] Unless otherwise defined by law, nepotism is the appointment or hiring of any relative within the third degree of relationship of either the judge or the judge’s spouse or domestic partner, or the spouse or domestic partner of such relative."
+    },
+    {
+      "id": "dcv-v6-01375",
+      "citation": "SCt Rule 208",
+      "quote": "(e) Controlled Expert Witness Fees. Each party shall, unless manifest injustice would result, bear the expense of all fees charged by his or her Rule 213(f)(3) controlled expert witness or witnesses."
+    },
+    {
+      "id": "dcv-v6-01386",
+      "citation": "SCt Rule 3.14",
+      "quote": "Participation in a variety of other extrajudicial activity is also permitted and encouraged by this Code."
+    },
+    {
+      "id": "dcv-v6-01387",
+      "citation": "SCt Rule 3.3",
+      "quote": "Rule 3.3: Testifying as a Character Witness A judge shall not testify as a character witness in a judicial, administrative, or other adjudicatory proceeding or otherwise vouch for the character of a person in a legal proceeding, except when duly summoned."
+    },
+    {
+      "id": "dcv-v6-01389",
+      "citation": "SCt Rule 3.7",
+      "quote": "Such activities are not solicitation and do not present an element of coercion or misuse the prestige of judicial office."
+    },
+    {
+      "id": "dcv-v6-01408",
+      "citation": "SCt Rule 4.4",
+      "quote": "COMMENTS [1] Judicial candidates are prohibited from personally soliciting campaign contributions or personally accepting campaign contributions."
+    },
+    {
+      "id": "dcv-v6-01409",
+      "citation": "SCt Rule 40",
+      "quote": "For marriage and civil union funds that reflect a balance under $50,000 at the end of each State Fiscal Year (June 30), the chief judge of the circuit shall file, quarterly in the next fiscal year, reports with the Administrative Director of the Illinois Courts."
+    },
+    {
+      "id": "dcv-v6-01436",
+      "citation": "SCt Rule 602",
+      "quote": "The party appealing shall be known as the appellant and the adverse party as the appellee, but the title of the case shall not be changed."
+    },
+    {
+      "id": "dcv-v6-01437",
+      "citation": "SCt Rule 602",
+      "quote": "Method of Review The only method of review in a criminal case in which judgment was entered on or after January 1, 1964, shall be by appeal. The party appealing shall be known as the appellant and the adverse party as the appellee, but the title of the case shall not be changed."
+    },
+    {
+      "id": "dcv-v6-01442",
+      "citation": "SCt Rule 7.5",
+      "quote": "If a private firm uses a trade name that includes a geographical name such as “Springfield Legal Clinic,” an express disclaimer that it is a public legal aid agency may be required to avoid a misleading implication."
+    },
+    {
+      "id": "dcv-v6-01444",
+      "citation": "SCt Rule 710",
+      "quote": "The grant of immunity provided by this rule shall apply only to those communications made by such persons to any member of the Illinois Board of Admissions to the Bar or to any member of the Character and Fitness Committees or to the Director of Administration, administrators, staff, investigators, agents, or attorneys of the Board or such Committees."
+    },
+    {
+      "id": "dcv-v6-01445",
+      "citation": "SCt Rule 712",
+      "quote": "(4) the affidavits of reputable persons as evidence of the applicant’s good moral character and general fitness, substantially as required by Rule 708;"
+    },
+    {
+      "id": "dcv-v6-01446",
+      "citation": "SCt Rule 715",
+      "quote": "(e) The applicant has achieved a passing score as determined by the Board on the Multistate Professional Responsibility Examination in Illinois or in any other jurisdiction in which it was administered. (f) The applicant meets the character and fitness standards in Illinois and has been so certified to the Board by the Committee on Character and Fitness pursuant to Rule 708."
+    },
+    {
+      "id": "dcv-v6-01453",
+      "citation": "SCt Rule 761",
+      "quote": "(g) Hearing and Review Procedure. The hearing and review procedure shall be the same as provided in Rule 753 for disciplinary cases."
+    },
+    {
+      "id": "dcv-v6-01455",
+      "citation": "SCt Rule 769",
+      "quote": "(2) all financial records related to the attorney’s practice, for a period of not less than seven years, including but not limited to bank statements, time and billing records, checks, check stubs, journals, ledgers, audits, financial statements, tax returns and tax reports."
+    },
+    {
+      "id": "dcv-v6-01457",
+      "citation": "SCt Rule 772",
+      "quote": "(8) psychological counseling and treatment; (9) the abstinence from alcohol or drugs; and"
+    },
+    {
+      "id": "dcv-v6-01467",
+      "citation": "SCt Rule 91",
+      "quote": "If a panel of arbitrators unanimously finds that a party has failed to participate in the hearing in good faith and in a meaningful manner, the panel’s finding and factual basis therefor shall be stated on the award."
+    },
+    {
+      "id": "dcv-v6-01469",
+      "citation": "18 U.S.C. § 1023",
+      "quote": "Whoever, having charge, possession, custody, or control of any money or other public property used or to be used in the military or naval service, with intent to defraud the United States, or any agency thereof, or any corporation in which the United States has a proprietary interest, or intending to conceal such money or other property, delivers to any person having authority to receive the same any amount of such money or other property less than that for which he received a certificate or took a receipt, shall be fined under this title or imprisoned not more than ten years, or both."
+    },
+    {
+      "id": "dcv-v6-01471",
+      "citation": "18 U.S.C. § 1153",
+      "quote": "(b) Any offense referred to in subsection (a) of this section that is not defined and punished by Federal law in force within the exclusive jurisdiction of the United States shall be defined and punished in accordance with the laws of the State in which such offense was committed as are in force at the time of such offense."
+    },
+    {
+      "id": "dcv-v6-01472",
+      "citation": "18 U.S.C. § 118",
+      "quote": "Any person who knowingly and willfully obstructs, resists, or interferes with a Federal law enforcement agent engaged, within the United States or the special maritime territorial jurisdiction of the United States, in the performance of the protective functions authorized under section 37 of the State Department Basic Authorities Act of 1956 ( 22 U.S.C. 2709 ) or section 103 of the Diplomatic Security Act ( 22 U.S.C. 4802 ) shall be fined under this title, imprisoned not more than 1 year, or both."
+    },
+    {
+      "id": "dcv-v6-01473",
+      "citation": "18 U.S.C. § 1302",
+      "quote": "Any check, draft, bill, money, postal note, or money order, for the purchase of any ticket or part thereof, or of any share or chance in any such lottery, gift enterprise, or scheme [...] Any article described in section 1953 of this title — Shall be fined under this title or imprisoned not more than two years, or both; and for any subsequent offense shall be imprisoned not more than five years."
+    },
+    {
+      "id": "dcv-v6-01477",
+      "citation": "18 U.S.C. § 15",
+      "quote": "The term “obligation or other security of any foreign government” includes, but is not limited to, uncanceled stamps, whether or not demonetized."
+    },
+    {
+      "id": "dcv-v6-01478",
+      "citation": "18 U.S.C. § 1511",
+      "quote": "(a) It shall be unlawful for two or more persons to conspire to obstruct the enforcement of the criminal laws of a State or political subdivision thereof, with the intent to facilitate an illegal gambling business if—"
+    },
+    {
+      "id": "dcv-v6-01484",
+      "citation": "18 U.S.C. § 154",
+      "quote": "(1) knowingly purchases, directly or indirectly, any property of the estate of which the person is such an officer in a case under title 11; [...] (3) knowingly refuses to permit a reasonable opportunity for the inspection by the United States Trustee of the documents and accounts relating to the affairs of an estate in the person’s charge, shall be fined under this title and shall forfeit the person’s office, which shall thereupon become vacant."
+    },
+    {
+      "id": "dcv-v6-01485",
+      "citation": "18 U.S.C. § 154",
+      "quote": "(3) knowingly refuses to permit a reasonable opportunity for the inspection by the United States Trustee of the documents and accounts relating to the affairs of an estate in the person’s charge, shall be fined under this title and shall forfeit the person’s office, which shall thereupon become vacant."
+    },
+    {
+      "id": "dcv-v6-01494",
+      "citation": "18 U.S.C. § 1831",
+      "quote": "(1) steals, or without authorization appropriates, takes, carries away, or conceals, or by fraud, artifice, or deception obtains a trade secret;"
+    },
+    {
+      "id": "dcv-v6-01497",
+      "citation": "18 U.S.C. § 1835",
+      "quote": "The provision of information relating to a trade secret to the United States or the court in connection with a prosecution under this chapter shall not constitute a waiver of trade secret protection, and the disclosure of information relating to a trade secret in connection with a prosecution under this chapter shall not constitute a waiver of trade secret protection unless the trade secret owner expressly consents to such waiver."
+    },
+    {
+      "id": "dcv-v6-01500",
+      "citation": "18 U.S.C. § 1901",
+      "quote": "Whoever, being an officer of the United States concerned in the collection or the disbursement of the revenues thereof, carries on any trade or business in the funds or debts of the United States, or of any State, or in any public property of either, shall be fined under this title or imprisoned not more than one year, or both; and shall be removed from office, and be incapable of holding any office under the United States."
+    },
+    {
+      "id": "dcv-v6-01507",
+      "citation": "18 U.S.C. § 2116",
+      "quote": "Whoever, by violence, enters a post-office car, or any part of any car, steamboat, or vessel, assigned to the use of the mail service, or willfully or maliciously assaults or interferes with any postal clerk in the discharge of his duties in connection with such car, steamboat, vessel, or apartment thereof, shall be fined under this title or imprisoned not more than three years, or both."
+    },
+    {
+      "id": "dcv-v6-01519",
+      "citation": "18 U.S.C. § 2285",
+      "quote": "(2) Production of documents .— The affirmative defenses provided by this subsection are proved conclusively by the production of—"
+    },
+    {
+      "id": "dcv-v6-01532",
+      "citation": "18 U.S.C. § 25",
+      "quote": "(3) Uses .— The term “uses” means employs, hires, persuades, induces, entices, or coerces."
+    },
+    {
+      "id": "dcv-v6-01534",
+      "citation": "18 U.S.C. § 2522",
+      "quote": "(1) In general .— A court issuing an order under this section against a telecommunications carrier, a manufacturer of telecommunications transmission or switching equipment, or a provider of telecommunications support services may impose a civil penalty of up to $10,000 per day for each day in violation after the issuance of the order or after such future date as the court may specify."
+    },
+    {
+      "id": "dcv-v6-01535",
+      "citation": "18 U.S.C. § 2708",
+      "quote": "The remedies and sanctions described in this chapter are the only judicial remedies and sanctions for nonconstitutional violations of this chapter."
+    },
+    {
+      "id": "dcv-v6-01536",
+      "citation": "18 U.S.C. § 292",
+      "quote": "Whoever solicits employment for himself or another in respect to a case, claim, or award for compensation under, or to be brought under, subchapter I of chapter 81 of title 5; or Whoever receives a fee, other consideration, or gratuity on account of legal or other services furnished in respect to a case, claim, or award for compensation under subchapter I of chapter 81 of title 5, unless the fee, consideration, or gratuity is approved by the Secretary of Labor— Shall, for each offense, be fined under this title or imprisoned not more than one year, or both."
+    },
+    {
+      "id": "dcv-v6-01550",
+      "citation": "18 U.S.C. § 3167",
+      "quote": "(1) The reasons why, in those cases not in compliance with the time limits of subsections (b) and (c) of section 3161, the provisions of section 3161(h) have not been adequate to accommodate reasonable periods of delay."
+    },
+    {
+      "id": "dcv-v6-01551",
+      "citation": "18 U.S.C. § 3187",
+      "quote": "Such request shall be accompanied by an express statement that a warrant for the fugitive’s arrest has been issued within the jurisdiction of the authority making such request charging the fugitive with the commission of the crime for which his extradition is sought to be obtained."
+    },
+    {
+      "id": "dcv-v6-01552",
+      "citation": "18 U.S.C. § 3189",
+      "quote": "Hearings in cases of extradition under treaty stipulation or convention shall be held on land, publicly, and in a room or office easily accessible to the public."
+    },
+    {
+      "id": "dcv-v6-01553",
+      "citation": "18 U.S.C. § 3235",
+      "quote": "The trial of offenses punishable with death shall be had in the county where the offense was committed, where that can be done without great inconvenience."
+    },
+    {
+      "id": "dcv-v6-01556",
+      "citation": "18 U.S.C. § 3291",
+      "quote": "No person shall be prosecuted, tried, or punished for violation of any provision of sections 1423 to 1428, inclusive, of chapter 69 and sections 1541 to 1544, inclusive, of chapter 75 of title 18 of the United States Code, or for conspiracy to violate any of such sections, unless the indictment is found or the information is instituted within ten years after the commission of the offense."
+    },
+    {
+      "id": "dcv-v6-01558",
+      "citation": "18 U.S.C. § 3297",
+      "quote": "In a case in which DNA testing implicates an identified person in the commission of a felony, no statute of limitations that would otherwise preclude prosecution of the offense shall preclude such prosecution until a period of time following the implication of the person by DNA testing has elapsed that is equal to the otherwise applicable limitation period."
+    },
+    {
+      "id": "dcv-v6-01580",
+      "citation": "18 U.S.C. § 4247",
+      "quote": "(E) if the examination is ordered under section 4244 or 4245, whether the person is suffering from a mental disease or defect as a result of which he is in need of custody for care or treatment in a suitable facility; or [...] The person shall be afforded an opportunity to testify, to present evidence, to subpoena witnesses on his behalf, and to confront and cross-examine witnesses who appear at the hearing."
+    },
+    {
+      "id": "dcv-v6-01584",
+      "citation": "18 U.S.C. § 510",
+      "quote": "(2) passes, utters, or publishes, or attempts to pass, utter, or publish, any Treasury check or bond or security of the United States bearing a falsely made or forged endorsement or signature; [...] (b) Whoever, with knowledge that such Treasury check or bond or security of the United States is stolen or bears a falsely made or forged endorsement or signature buys, sells, exchanges, receives, delivers, retains, or conceals any such Treasury check or bond or security of the United States shall be fined under this title or imprisoned not more than ten years, or both."
+    },
+    {
+      "id": "dcv-v6-01600",
+      "citation": "18 U.S.C. § 966",
+      "quote": "(b) Whoever, in violation of this section, takes or attempts to take, or authorizes the taking of any such vessel, out of port or from the United States, shall be fined under this title or imprisoned not more than ten years, or both."
+    },
+    {
+      "id": "dcv-v6-01605",
+      "citation": "28 U.S.C. § 1291",
+      "quote": "The jurisdiction of the United States Court of Appeals for the Federal Circuit shall be limited to the jurisdiction described in sections 1292(c) and (d) and 1295 of this title."
+    },
+    {
+      "id": "dcv-v6-01609",
+      "citation": "28 U.S.C. § 1335",
+      "quote": "(a) The district courts shall have original jurisdiction of any civil action of interpleader or in the nature of interpleader filed by any person, firm, or corporation, association, or society having in his or its custody or possession money or property of the value of $500 or more, or having issued a note, bond, certificate, policy of insurance, or other instrument of value or amount of $500 or more, or providing for the delivery or payment or the loan of money or property of such amount or value, or being under any obligation written or unwritten to the amount of $500 or more, if"
+    },
+    {
+      "id": "dcv-v6-01610",
+      "citation": "28 U.S.C. § 1338",
+      "quote": "(a) The district courts shall have original jurisdiction of any civil action arising under any Act of Congress relating to patents, plant variety protection, copyrights and trademarks. [...] For purposes of this subsection, the term “State” includes any State of the United States, the District of Columbia, the Commonwealth of Puerto Rico, the United States Virgin Islands, American Samoa, Guam, and the Northern Mariana Islands."
+    },
+    {
+      "id": "dcv-v6-01611",
+      "citation": "28 U.S.C. § 1340",
+      "quote": "The district courts shall have original jurisdiction of any civil action arising under any Act of Congress providing for internal revenue, or revenue from imports or tonnage except matters within the jurisdiction of the Court of International Trade."
+    },
+    {
+      "id": "dcv-v6-01629",
+      "citation": "28 U.S.C. § 154",
+      "quote": "Whenever a majority of the judges of such district court cannot agree upon the designation as chief judge, the chief judge of such district court shall make such designation."
+    },
+    {
+      "id": "dcv-v6-01630",
+      "citation": "28 U.S.C. § 1603",
+      "quote": "(a) A “foreign state”, except as used in section 1608 of this title , includes a political subdivision of a foreign state or an agency or instrumentality of a foreign state as defined in subsection (b)."
+    },
+    {
+      "id": "dcv-v6-01635",
+      "citation": "28 U.S.C. § 1732",
+      "quote": "This subsection 1 shall not be construed to exclude from evidence any document or copy thereof which is otherwise admissible under the rules of evidence."
+    },
+    {
+      "id": "dcv-v6-01642",
+      "citation": "28 U.S.C. § 1826",
+      "quote": "Any appeal from an order of confinement under this section shall be disposed of as soon as practicable, but not later than thirty days from the filing of such appeal."
+    },
+    {
+      "id": "dcv-v6-01645",
+      "citation": "28 U.S.C. § 1872",
+      "quote": "In all original actions at law in the Supreme Court against citizens of the United States, issues of fact shall be tried by a jury."
+    },
+    {
+      "id": "dcv-v6-01647",
+      "citation": "28 U.S.C. § 1915",
+      "quote": "(B) The prisoner shall be required to make payments for costs under this subsection in the same manner as is provided for filing fees under subsection (a)(2). (C) In no event shall the costs collected exceed the amount of the costs ordered by the court."
+    },
+    {
+      "id": "dcv-v6-01649",
+      "citation": "28 U.S.C. § 2007",
+      "quote": "(b) Any person arrested or imprisoned in any State on a writ of execution or other process issued from any court of the United States in a civil action shall have the same jail privileges and be governed by the same regulations as persons confined in like cases on process issued from the courts of such State."
+    },
+    {
+      "id": "dcv-v6-01650",
+      "citation": "28 U.S.C. § 2044",
+      "quote": "On motion of the United States attorney, the court shall order any money belonging to and deposited by or on behalf of the defendant with the court for the purposes of a criminal appearance bail bond (trial or appeal) to be held and paid over to the United States attorney to be applied to the payment of any assessment, fine, restitution, or penalty imposed upon the defendant."
+    },
+    {
+      "id": "dcv-v6-01656",
+      "citation": "28 U.S.C. § 2263",
+      "quote": "(A) a motion for an extension of time is filed in the Federal district court that would have jurisdiction over the case upon the filing of a habeas corpus application under section 2254; and"
+    },
+    {
+      "id": "dcv-v6-01659",
+      "citation": "28 U.S.C. § 2349",
+      "quote": "The court of appeals, at the time of hearing the application for an interlocutory injunction, on a like finding, may continue the temporary stay or suspension, in whole or in part, until decision on the application."
+    },
+    {
+      "id": "dcv-v6-01664",
+      "citation": "28 U.S.C. § 2511",
+      "quote": "The judgment of the United States Court of Federal Claims in such suit shall be conclusive upon the parties, and payment of the amount found due shall discharge the obligation."
+    },
+    {
+      "id": "dcv-v6-01667",
+      "citation": "28 U.S.C. § 2522",
+      "quote": "Review of a decision of the United States Court of Federal Claims shall be obtained by filing a notice of appeal with the clerk of the Court of Federal Claims within the time and in the manner prescribed for appeals to United States courts of appeals from the United States district courts."
+    },
+    {
+      "id": "dcv-v6-01682",
+      "citation": "28 U.S.C. § 3008",
+      "quote": "A district court of the United States may assign its duties in proceedings under this chapter to a United States magistrate judge to the extent not inconsistent with the Constitution and laws of the United States."
+    },
+    {
+      "id": "dcv-v6-01699",
+      "citation": "28 U.S.C. § 502",
+      "quote": "The Attorney General shall have a seal for the Department of Justice. The design of the seal is subject to the approval of the President."
+    },
+    {
+      "id": "dcv-v6-01700",
+      "citation": "28 U.S.C. § 507",
+      "quote": "(c) Notwithstanding the provisions of section 901 of title 31 , United States Code, the Assistant Attorney General for Administration shall be the Chief Financial Officer of the Department of Justice."
+    },
+    {
+      "id": "dcv-v6-01701",
+      "citation": "28 U.S.C. § 509B",
+      "quote": "(2) coordinate any such legal action with the United States Attorney for the relevant jurisdiction."
+    },
+    {
+      "id": "dcv-v6-01704",
+      "citation": "28 U.S.C. § 525",
+      "quote": "In the procurement of law books, reference books, and periodicals, the Attorney General may exchange or sell similar items and apply the exchange allowances or proceeds of such sales in whole or in part payment therefor."
+    },
+    {
+      "id": "dcv-v6-01706",
+      "citation": "28 U.S.C. § 529",
+      "quote": "(2) any violation of any Federal criminal law relating to lobbying, conflict of interest, campaigns, and election to public office committed by any person, except insofar as such violation relates to a matter involving discrimination or intimidation on grounds of race, color, religion, or national origin;"
+    },
+    {
+      "id": "dcv-v6-01707",
+      "citation": "28 U.S.C. § 530",
+      "quote": "The Attorney General or the Attorney General’s designee is authorized to pay the travel expenses of newly appointed special agents and the transportation expenses of their families and household goods and personal effects from place of residence at time of selection to the first duty station, to the extent such payments are authorized by section 5723 of title 5 for new appointees who may receive payments under that section."
+    },
+    {
+      "id": "dcv-v6-01721",
+      "citation": "28 U.S.C. § 756",
+      "quote": "Whenever a majority of the district judges of any district court cannot agree upon the appointment of any officer of such court, the chief judge shall make such appointment."
+    },
+    {
+      "id": "dcv-v6-01723",
+      "citation": "28 U.S.C. § 93",
+      "quote": "Clair, Saline, Union, Wabash, Washington, Wayne, White, and Williamson. Court for the Southern District shall be held at Alton, Benton, Cairo, and East Saint Louis."
+    },
+    {
+      "id": "dcv-v6-01727",
+      "citation": "28 U.S.C. § 960",
+      "quote": "(1) the tax is a property tax secured by a lien against property that is abandoned under section 554 of title 11 , within a reasonable period of time after the lien attaches, by the trustee in a case under title 11; or"
+    },
+    {
+      "id": "dcv-v6-01734",
+      "citation": "42 U.S.C. § 10411",
+      "quote": "(3) working in collaboration with service providers and community-based organizations to address the needs of family violence, domestic violence, and dating violence victims, and their dependents, who are members of racial and ethnic minority populations and underserved populations;"
+    },
+    {
+      "id": "dcv-v6-01740",
+      "citation": "42 U.S.C. § 12112",
+      "quote": "(1) In general It shall not be unlawful under this section for a covered entity to take any action that constitutes discrimination under this section with respect to an employee in a workplace in a foreign country if compliance with this section would cause such covered entity to violate the law of the foreign country in which such workplace is located."
+    },
+    {
+      "id": "dcv-v6-01741",
+      "citation": "42 U.S.C. § 12202",
+      "quote": "A State shall not be immune under the eleventh amendment to the Constitution of the United States from an action in 1 Federal or State court of competent jurisdiction for a violation of this chapter. In any action against a State for a violation of the requirements of this chapter, remedies (including remedies both at law and in equity) are available for such a violation to the same extent as such remedies are available for such a violation in an action against any public or private entity other than a State."
+    },
+    {
+      "id": "dcv-v6-01743",
+      "citation": "42 U.S.C. § 12371",
+      "quote": "(G) genuine participation in decisions concerning the planning and managing of their lives; and (6) there is a great need for a comprehensive national policy with respect to young individuals, designed to engage Federal, State, and local government agencies, youth organizations, and other voluntary organizations."
+    },
+    {
+      "id": "dcv-v6-01745",
+      "citation": "42 U.S.C. § 12655h",
+      "quote": "(a) In general In the consideration of applications submitted under section 12655b of this title , the Corporation shall give preference to programs that—"
+    },
+    {
+      "id": "dcv-v6-01757",
+      "citation": "42 U.S.C. § 13557",
+      "quote": "It is the sense of Congress that Federal agencies conducting assessments of risks to human health and the environment from energy technology, production, transport, transmission, distribution, storage, use, or conservation activities shall use sound and objective scientific practices in assessing such risks, shall consider the best available science (including peer reviewed studies), and shall include a description of the weight of the scientific evidence concerning such risks."
+    },
+    {
+      "id": "dcv-v6-01759",
+      "citation": "42 U.S.C. § 1393",
+      "quote": "(2) indicates the manner in which provision will be made to assure full consideration of all aspects of services essential to planning for comprehensive State and community action to combat mental retardation, including services in the fields of education, employment, rehabilitation, welfare, health, and the law, and services provided through community programs for and institutions for the mentally retarded;"
+    },
+    {
+      "id": "dcv-v6-01773",
+      "citation": "42 U.S.C. § 1590",
+      "quote": "(f) The term “going Federal rate of interest” means “going Federal rate” as that term is defined in the United States Housing Act of 1937 [ 42 U.S.C. 1437 et seq.]. (g) The term “United States Housing Act of 1937” [ 42 U.S.C. 1437 et seq.] means the provisions of that Act, including all amendments thereto, now or hereafter adopted, except provisions relating to the initial construction of a project or dwelling units."
+    },
+    {
+      "id": "dcv-v6-01781",
+      "citation": "42 U.S.C. § 16182",
+      "quote": "(3) Nonmilitary energy laboratory The term “nonmilitary energy laboratory” means a National Laboratory other than a National Laboratory listed in subparagraph (G), (H), or (N) of section 15801(3) of this title ."
+    },
+    {
+      "id": "dcv-v6-01793",
+      "citation": "42 U.S.C. § 1785",
+      "quote": "Such accounts and records shall be available at any reasonable time for inspection and audit by representatives of the Secretary and shall be preserved for such period of time, not in excess of three years, as the Secretary determines is necessary."
+    },
+    {
+      "id": "dcv-v6-01795",
+      "citation": "42 U.S.C. § 18051",
+      "quote": "(iii) the establishment of relationships between providers and patients that maximize patient involvement in health care decision-making, including providing incentives for appropriate utilization under the plan."
+    },
+    {
+      "id": "dcv-v6-01802",
+      "citation": "42 U.S.C. § 18648",
+      "quote": "(2) leverage investments in accelerator technologies and fundamental research in particle physics by partnering with institutions of higher education, industry, and other Federal agencies to enable the commercial application of advanced accelerator technologies."
+    },
+    {
+      "id": "dcv-v6-01806",
+      "citation": "42 U.S.C. § 18994",
+      "quote": "(2) Report Not later than 180 days after the date of the review under paragraph (1) is complete, the Director shall submit to Congress and make widely available to the public a summary report of the portfolio review."
+    },
+    {
+      "id": "dcv-v6-01814",
+      "citation": "42 U.S.C. § 2325",
+      "quote": "(b) Other properties In all other cases the sales price to priority purchasers shall be the appraised value less the deductions provided by section 2326 of this title , except that sales made under sections 2343(b) and 2343(c) of this title shall be made at the prices set forth therein."
+    },
+    {
+      "id": "dcv-v6-01815",
+      "citation": "42 U.S.C. § 2325",
+      "quote": "(c) Appraised value of interest in commercial property The appraised value of the Government’s interest in commercial property shall, in the cases where renegotiation of the lease is requested by the lessee under the provisions of section 2201(e) of this title be based upon the renegotiated lease if any is agreed on."
+    },
+    {
+      "id": "dcv-v6-01826",
+      "citation": "42 U.S.C. § 280g–4a",
+      "quote": "(4) barriers to medical forensic examinations provided through sexual assault care and services; (5) billing and reimbursement practices for medical forensic examinations;"
+    },
+    {
+      "id": "dcv-v6-01837",
+      "citation": "42 U.S.C. § 292",
+      "quote": "The purpose of this subpart is to enable the Secretary to provide a Federal program of student loan insurance for students in (and certain former students of) eligible institutions (as defined in section 292 o of this title)."
+    },
+    {
+      "id": "dcv-v6-01840",
+      "citation": "42 U.S.C. § 292h",
+      "quote": "(d) Allocation of funds for Office In the case of amounts reserved under section 292i(a)(2)(B) of this title for obligation under this subsection, the Secretary may obligate the amounts for the purpose of administering the Office, including 7 full-time equivalent employment positions for such Office."
+    },
+    {
+      "id": "dcv-v6-01843",
+      "citation": "42 U.S.C. § 294i–1",
+      "quote": "The technical assistance provided shall be for the purpose of— [...] (3) identifying or facilitating the development of best practices on the use of alternatives to opioids that target common painful conditions and include certain patient populations, such as geriatric patients, pregnant women, and children; and"
+    },
+    {
+      "id": "dcv-v6-01845",
+      "citation": "42 U.S.C. § 297t",
+      "quote": "(B) the Secretary (or the delegate of the Secretary (who shall be an ex officio member and shall serve as the Chairperson))."
+    },
+    {
+      "id": "dcv-v6-01846",
+      "citation": "42 U.S.C. § 299c–1",
+      "quote": "Such officers and employees may not receive compensation for service on such groups in addition to the compensation otherwise received for these duties carried out as such officers and employees. (3) Duration Notwithstanding section 1013(a) of title 5 , peer review groups established under this section may continue in existence until otherwise provided by law."
+    },
+    {
+      "id": "dcv-v6-01852",
+      "citation": "42 U.S.C. § 300e–5",
+      "quote": "(a) Submission to and approval by Secretary required for making loans and loan guarantees No loan or loan guarantee may be made under this subchapter unless an application therefor has been submitted to, and approved by, the Secretary. (b) Application contents The Secretary may not approve an application for a loan or loan guarantee under this subchapter unless—"
+    },
+    {
+      "id": "dcv-v6-01860",
+      "citation": "42 U.S.C. § 300hh–13",
+      "quote": "(2) promptly issue a request, as necessary, for information from non-Federal public and private entities for ongoing activities in this area; and"
+    },
+    {
+      "id": "dcv-v6-01862",
+      "citation": "42 U.S.C. § 300hh–15",
+      "quote": "(3) Limitation State, local, and tribal officials shall have no authority to designate a member of the Corps as Federal intermittent disaster-response personnel, but may request the services of such members."
+    },
+    {
+      "id": "dcv-v6-01864",
+      "citation": "42 U.S.C. § 300h–8",
+      "quote": "(f) Authorization of appropriations There are authorized to be appropriated to carry out this section $15,000,000 for each of fiscal years 1997 through 2003."
+    },
+    {
+      "id": "dcv-v6-01873",
+      "citation": "42 U.S.C. § 300mm–63",
+      "quote": "(a) In general There is established a fund to be known as the World Trade Center Health Program Special Fund (referred to in this section as the “Special Fund”), consisting of amounts deposited into the Special Fund under subsection (b)."
+    },
+    {
+      "id": "dcv-v6-01881",
+      "citation": "42 U.S.C. § 3032f",
+      "quote": "(1) In general Not later than 3 years after March 25, 2020 , the Assistant Secretary shall, through data submitted by organizations carrying out projects through grants or contracts under this section, evaluate the activities supported through such grants and contracts to determine—"
+    },
+    {
+      "id": "dcv-v6-01883",
+      "citation": "42 U.S.C. § 3191",
+      "quote": "(a) In general The Secretary shall carry out this chapter through an Assistant Secretary of Commerce for Economic Development, to be appointed by the President, by and with the advice and consent of the Senate."
+    },
+    {
+      "id": "dcv-v6-01884",
+      "citation": "42 U.S.C. § 3191",
+      "quote": "(b) Compensation The Assistant Secretary of Commerce for Economic Development shall be compensated at the rate payable for level IV of the Executive Schedule under section 5315 of title 5 . (c) Duties The Assistant Secretary of Commerce for Economic Development shall carry out such duties as the Secretary shall require and shall serve as the administrator of the Economic Development Administration of the Department."
+    },
+    {
+      "id": "dcv-v6-01885",
+      "citation": "42 U.S.C. § 3221",
+      "quote": "(ii) if remediation activities were conducted— (I) the type of remediation activities; and"
+    },
+    {
+      "id": "dcv-v6-01886",
+      "citation": "42 U.S.C. § 3507",
+      "quote": "The Secretary of Health and Human Services may on and after July 12, 1943 , delegate to such officers and employees as he may designate for the purpose all his authority in connection with the transfer of personnel and household goods and effects from one official station to another."
+    },
+    {
+      "id": "dcv-v6-01896",
+      "citation": "42 U.S.C. § 4852b",
+      "quote": "In carrying out this chapter, the Secretary shall consult on an ongoing basis with the Administrator of the Environmental Protection Agency, the Director of the Centers for Disease Control, other Federal agencies concerned with lead poisoning prevention, and the task force established pursuant to section 4852a of this title ."
+    },
+    {
+      "id": "dcv-v6-01902",
+      "citation": "42 U.S.C. § 5196g",
+      "quote": "(1) Providing a list of equipment required in the event a hazardous substance is released into the environment."
+    },
+    {
+      "id": "dcv-v6-01904",
+      "citation": "42 U.S.C. § 5854",
+      "quote": "The Chairman shall notify the Committees not later than 1 day after such authority is relinquished. The Chairman shall submit the report required by section 3(d) of the Reorganization Plan No. 1 of 1980 to the Committees not later than 1 day after it was submitted to the Commission."
+    },
+    {
+      "id": "dcv-v6-01906",
+      "citation": "42 U.S.C. § 5907a",
+      "quote": "(e) Reports to Congress The Secretary shall— (1) prepare and submit no later than October 1, 1977 , a detailed report on plans for implementation, including the timing of implementation, of the provisions of this section to the Committee on Energy and Natural Resources of the Senate and the Committee on Science and Technology of the House of Representatives and shall keep such committees fully and currently informed concerning the development of such plans; and"
+    },
+    {
+      "id": "dcv-v6-01912",
+      "citation": "42 U.S.C. § 654a",
+      "quote": "(1) In general The State shall use the automated system required by this section to assist and facilitate the collection and disbursement of support payments through the State disbursement unit operated under section 654b of this title , through the performance of functions, including, at a minimum— [...] (iii) at the option of the employer, using the electronic transmission methods prescribed by the Secretary;"
+    },
+    {
+      "id": "dcv-v6-01913",
+      "citation": "42 U.S.C. § 6605",
+      "quote": "(3) The term “entity” means an entity that has applied for or received a research and development award from a Federal research agency. [...] (5) The term “research and development award” means support provided to an individual or entity by a Federal research agency to carry out research and development activities, which may include support in the form of a grant, contract, cooperative agreement, or other such transaction."
+    },
+    {
+      "id": "dcv-v6-01928",
+      "citation": "42 U.S.C. § 7384d",
+      "quote": "(a) Program established There is hereby established a program to be known as the “Energy Employees Occupational Illness Compensation Program” (in this subchapter referred to as the “compensation program”). The President shall carry out the compensation program through one or more Federal agencies or officials, as designated by the President."
+    },
+    {
+      "id": "dcv-v6-01929",
+      "citation": "42 U.S.C. § 7384t",
+      "quote": "(d) Commencement of benefits An individual receiving benefits under this section shall be furnished those benefits as of the date on which that individual submitted the claim for those benefits in accordance with this subchapter. (e) Payment from compensation fund The benefits provided under this section, when authorized or approved by the President, shall be paid from the compensation fund established under section 7384e of this title ."
+    },
+    {
+      "id": "dcv-v6-01935",
+      "citation": "42 U.S.C. § 7608",
+      "quote": "(2) that the unavailability of such right may result in a substantial lessening of competition or tendency to create a monopoly in any line of commerce in any section of the country, the Attorney General may so certify to a district court of the United States, which may issue an order requiring the person who owns such patent to license it on such reasonable terms and conditions as the court, after hearing, may determine."
+    },
+    {
+      "id": "dcv-v6-01940",
+      "citation": "42 U.S.C. § 8273",
+      "quote": "The purpose of the program established by section 8272 of this title is to—"
+    },
+    {
+      "id": "dcv-v6-01943",
+      "citation": "42 U.S.C. § 8839",
+      "quote": "(d) Transfer of related functions and personnel from Department of Energy The Secretary shall provide for the transfer to the Office of the functions relating to, and personnel of the Department who are responsible for the administration of, programs in existence on June 30, 1980 , which relate to the research, development, demonstration, and commercialization of technologies for the recovery of energy from municipal waste."
+    },
+    {
+      "id": "dcv-v6-01948",
+      "citation": "42 U.S.C. § 9705",
+      "quote": "In carrying out the study, the Secretary shall coordinate his activities with the ongoing programs of the utility industry and other Federal governmental agencies for obtaining high standards of operator performance."
+    },
+    {
+      "id": "dcv-v6-01958",
+      "citation": "US Const amend. VI",
+      "quote": "Amendment VI In all criminal prosecutions, the accused shall enjoy the right to a speedy and public trial, by an impartial jury of the state and district wherein the crime shall have been committed, which district shall have been previously ascertained by law, and to be informed of the nature and cause of the accusation; to be confronted with the witnesses against him; to have compulsory process for obtaining witnesses in his favor, and to have the assistance of counsel for his defense."
+    },
+    {
+      "id": "dcv-v6-01960",
+      "citation": "US Const amend. X",
+      "quote": "Amendment X The powers not delegated to the United States by the Constitution, nor prohibited by it to the states, are reserved to the states respectively, or to the people."
+    },
+    {
+      "id": "dcv-v6-01961",
+      "citation": "US Const amend. XIV",
+      "quote": "The validity of the public debt of the United States, authorized by law, including debts incurred for payment of pensions and bounties for services in suppressing insurrection or rebellion, shall not be questioned."
+    },
+    {
+      "id": "dcv-v6-01962",
+      "citation": "US Const amend. XIX",
+      "quote": "Amendment XIX The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any state on account of sex."
+    },
+    {
+      "id": "dcv-v6-01968",
+      "citation": "US Const amend. XXI",
+      "quote": "This article shall be inoperative unless it shall have been ratified as an amendment to the Constitution by conventions in the several states, as provided in the Constitution, within seven years from the date of the submission hereof to the states by the Congress."
+    },
+    {
+      "id": "dcv-v6-01970",
+      "citation": "US Const amend. XXII",
+      "quote": "Amendment XXII Section 1. No person shall be elected to the office of the President more than twice, and no person who has held the office of President, or acted as President, for more than two years of a term to which some other person was elected President shall be elected to the office of the President more than once."
+    },
+    {
+      "id": "dcv-v6-01978",
+      "citation": "US Const art. I, § 2",
+      "quote": "The House of Representatives shall choose their speaker and other officers; and shall have the sole power of impeachment."
+    },
+    {
+      "id": "dcv-v6-01985",
+      "citation": "US Const art. I, § 6",
+      "quote": "Article I - Section 6 The Senators and Representatives shall receive a compensation for their services, to be ascertained by law, and paid out of the treasury of the United States. They shall in all cases, except treason, felony and breach of the peace, be privileged from arrest during their attendance at the session of their respective Houses, and in going to and returning from the same; and for any speech or debate in either House, they shall not be questioned in any other place."
+    },
+    {
+      "id": "dcv-v6-01991",
+      "citation": "US Const art. I, § 9",
+      "quote": "No capitation, or other direct, tax shall be laid, unless in proportion to the census or enumeration herein before directed to be taken. No tax or duty shall be laid on articles exported from any state."
+    },
+    {
+      "id": "dcv-v6-01994",
+      "citation": "US Const art. II, § 4",
+      "quote": "Article II - Section 4 The President, Vice President and all civil officers of the United States, shall be removed from office on impeachment for, and conviction of, treason, bribery, or other high crimes and misdemeanors."
+    },
+    {
+      "id": "dcv-v6-02001",
+      "citation": "1st Dist. Local Rule 21",
+      "quote": "(3) Mediation Committee. “Mediation Committee” means the committee of judges of this court appointed to administer or oversee the operation of the Settlement Conference Program."
+    },
+    {
+      "id": "dcv-v6-02003",
+      "citation": "Fed. R. App. P. 44",
+      "quote": "Case Involving a Constitutional Question When the United States and the Relevant State is Not a Party"
+    },
+    {
+      "id": "dcv-v6-02006",
+      "citation": "Fed. R. Bankr. P. 1011",
+      "quote": "A defense or objection to the petition may be presented as prescribed by Fed."
+    },
+    {
+      "id": "dcv-v6-02012",
+      "citation": "Fed. R. Civ. P. 23.2",
+      "quote": "Actions Relating to Unincorporated Associations This rule applies to an action brought by and against the members of an unincorporated association as a class by naming certain members as representative parties."
+    },
+    {
+      "id": "dcv-v6-02015",
+      "citation": "Fed. R. Civ. P. 64",
+      "quote": "At the commencement of or throughout an action, every remedy is available that, under the law of the state where the court is located, provides for seizing a person and property to secure satisfaction of the potential judgment."
+    },
+    {
+      "id": "dcv-v6-02022",
+      "citation": "Fed. R. Crim. P. 2",
+      "quote": "Interpretation These rules are to be interpreted to provide for the just determination of every criminal proceeding, to secure simplicity in procedure or fairness in administration, and to eliminate unjustifiable expense and delay."
+    },
+    {
+      "id": "dcv-v6-02028",
+      "citation": "Fed. R. Evid. 406",
+      "quote": "The court may admit this evidence regardless of whether it is corroborated and whether there was an eyewitness."
+    },
+    {
+      "id": "dcv-v6-02032",
+      "citation": "10 ILCS 5/16-7",
+      "quote": "When an electronic voting system is used, which utilizes a ballot label booklet or ballot card, there shall be used in the ballot label booklet a separate ballot label page or pages as required for such public measures or propositions."
+    },
+    {
+      "id": "dcv-v6-02039",
+      "citation": "15 ILCS 405/21",
+      "quote": "(a) To the University of Illinois, Southern Illinois University, Chicago State University, Eastern Illinois University, Governors State University, Illinois State University, Northeastern Illinois University, Northern Illinois University, Western Illinois University, or State Community College of East St."
+    },
+    {
+      "id": "dcv-v6-02044",
+      "citation": "20 ILCS 205/205-45",
+      "quote": "The Department has the power to administer the \"Illinois Product\" label program, whereby a label with the words \"Illinois Product\" on it may be placed on food or agribusiness commodities produced, processed, or packaged in Illinois."
+    },
+    {
+      "id": "dcv-v6-02054",
+      "citation": "205 ILCS 731/20-80",
+      "quote": "A receiver, monitor, conservator, or other designated fiduciary or officer of the court appointed by the circuit court pursuant to this Section may, with the approval of the court, exercise any or all of the powers of the defendant's officers, directors, partners, trustees, or persons who exercise similar powers or perform similar duties, including the filing of a petition for bankruptcy."
+    },
+    {
+      "id": "dcv-v6-02060",
+      "citation": "215 ILCS 5/131.3",
+      "quote": "(2) If a company ceases to control a subsidiary, it must dispose of any investment therein made under this section within 3 years from the time of the cessation of control or within such further time as the Director may prescribe, unless at any time after the investment is made, the investment meets the requirements for investment under any other section of this Code, or the company has notified the Director thereof."
+    },
+    {
+      "id": "dcv-v6-02064",
+      "citation": "220 ILCS 5/9-211.7",
+      "quote": "The tariff may be established outside the context of a general rate case and shall be applicable to the utility's customers."
+    },
+    {
+      "id": "dcv-v6-02082",
+      "citation": "35 ILCS 200/21-385",
+      "quote": "The confirmation from the county clerk shall include the date of receipt or shall serve as proof that the notice was filed with the county clerk."
+    },
+    {
+      "id": "dcv-v6-02087",
+      "citation": "40 ILCS 5/18-112",
+      "quote": "A judge may be entitled to credit for all or as much as the judge may desire of such service, not exceeding 8 years, upon payment of the participant's contribution covering such service at the contribution rates in effect on July 1, 1969, together with interest at 4% per annum compounded annually, from the dates the service was rendered to the date of payment, provided credit for such service had not been granted in any public pension fund or retirement system in the State."
+    },
+    {
+      "id": "dcv-v6-02093",
+      "citation": "410 ILCS 705/35-40",
+      "quote": "(d) Any infuser organization that continues to operate, or any infuser organization agent who continues to work as an agent, before the applicable license or identification card has expired without renewal is subject to the penalties provided under Section 35-25."
+    },
+    {
+      "id": "dcv-v6-02095",
+      "citation": "410 ILCS 725/5",
+      "quote": "(3) that is actively manufactured and marketed for sale in the United States by 3 and fewer manufacturers."
+    },
+    {
+      "id": "dcv-v6-02096",
+      "citation": "410 ILCS 725/5",
+      "quote": "\"State health plan\" means the program of health benefits under the State Employees Group Insurance Act of 1970."
+    },
+    {
+      "id": "dcv-v6-02101",
+      "citation": "415 ILCS 5/22.2a",
+      "quote": "Such a settlement does not discharge any of the other potentially responsible parties if its terms so provide, but it shall reduce the total potential liability of the other potentially responsible parties by the amount of the settlement."
+    },
+    {
+      "id": "dcv-v6-02107",
+      "citation": "50 ILCS 405/1.5a",
+      "quote": "The limitation prescribed in Section 1 of this Act shall not apply to any indebtedness of any town to establish, acquire by purchase and otherwise, construct, improve, extend, repair, equip, maintain or operate a public hospital."
+    },
+    {
+      "id": "dcv-v6-02109",
+      "citation": "510 ILCS 70/3.03-1",
+      "quote": "If the convicted person is a juvenile, the court may order the convicted person to undergo a psychological and psychiatric evaluation and to undergo treatment that the court determines to be appropriate after due consideration of the evaluation."
+    },
+    {
+      "id": "dcv-v6-02110",
+      "citation": "520 ILCS 5/2.33a",
+      "quote": "(b) It is unlawful for any person to place, set, use, or maintain a leghold trap or one of similar construction on land, that has a jaw spread of larger than 6 1/2 inches (16.6 CM), or a body-gripping trap or one of similar construction having a jaw spread larger than 7 inches (17.8 CM) on a side unless square and 8 inches (20.4 CM) if round."
+    },
+    {
+      "id": "dcv-v6-02119",
+      "citation": "620 ILCS 75/2-30",
+      "quote": "(e) The Department may not include terms in the request for proposals that provide an advantage, whether directly and indirectly, to any contractor presently providing goods, services, or equipment to the Department."
+    },
+    {
+      "id": "dcv-v6-02125",
+      "citation": "65 ILCS 5/1-1-11",
+      "quote": "A municipality may enter into voluntary agreements with the owners of property before the municipality to provide for contractual assessments to finance the installation of distributed generation renewable energy sources or energy efficiency improvements that are permanently fixed to real property."
+    },
+    {
+      "id": "dcv-v6-02135",
+      "citation": "70 ILCS 1520/1",
+      "quote": "Provided, however, such bonds may be authorized, issued or sold only in case the bonds are purchased by an agency of the United States of America in connection with the grant of money from the Federal government to be used in making any such park improvements."
+    },
+    {
+      "id": "dcv-v6-02137",
+      "citation": "70 ILCS 1801/15",
+      "quote": "All property of every kind owned by the Port District shall be exempt from taxation, provided that a tax may be levied upon a lessee of the Port District by reason of the value of a leasehold estate separate or apart from the fee simple title or upon any improvements that are constructed and owned by persons other than the Port District."
+    },
+    {
+      "id": "dcv-v6-02142",
+      "citation": "70 ILCS 3405/12",
+      "quote": "The board of trustees may have full power to pass all necessary ordinances, rules and regulations for the proper management and conduct of the business of the district for carrying into effect the objects for which the district was formed."
+    },
+    {
+      "id": "dcv-v6-02146",
+      "citation": "70 ILCS 705/12",
+      "quote": "Unless it shall appear that a majority of all valid votes cast on the proposition are in favor of the issue of said bonds, the board of trustees shall order and direct the execution of the bonds for and on behalf of said district."
+    },
+    {
+      "id": "dcv-v6-02151",
+      "citation": "720 ILCS 5/11-9.1A",
+      "quote": "As a condition of any sentence of supervision, probation, conditional discharge, or mandatory supervised release, any person convicted under this Section may be ordered to undergo child sexual abuse, domestic violence, or other appropriate counseling for a specified duration with a qualified social or mental health worker."
+    },
+    {
+      "id": "dcv-v6-02153",
+      "citation": "730 ILCS 5/3-2-8",
+      "quote": "(b) The Department may conduct or supervise research into the causes, detection and treatment of criminality, and disseminate such information to the public and to governmental and private agencies."
+    },
+    {
+      "id": "dcv-v6-02155",
+      "citation": "740 ILCS 22/203",
+      "quote": "If the petitioner has not disclosed an address under this subsection, the petitioner may designate an alternative address at which the respondent shall serve notice of any motions."
+    },
+    {
+      "id": "dcv-v6-02157",
+      "citation": "750 ILCS 62/85",
+      "quote": "(a) Following a domestic violence fatality review, participants who brought or provided confidential information may return to their possession the confidential information, may not disclose or share the confidential information unless otherwise allowed by State or federal law or not otherwise privileged, or may destroy the confidential information unless otherwise prohibited by State or federal law."
+    },
+    {
+      "id": "dcv-v6-02158",
+      "citation": "760 ILCS 60/1",
+      "quote": "(b) may distribute the trust income for each taxable year at such time and in such manner as not to subject the trust to the tax on undistributed income imposed by Section 4942 thereof;"
+    },
+    {
+      "id": "dcv-v6-02167",
+      "citation": "815 ILCS 505/2L",
+      "quote": "The consumer may pay one-half of the cost of the first 2 repairs necessary to bring the used motor vehicle into compliance with the warranty."
+    },
+    {
+      "id": "dcv-v6-02177",
+      "citation": "20 Ill. Adm. Code 2501.80",
+      "quote": "Section 2501.80 Training Training in procedures for use of force may be conducted for all institutional security employees."
+    },
+    {
+      "id": "dcv-v6-02186",
+      "citation": "56 Ill. Adm. Code 2605.300",
+      "quote": "Written notice of any postponement or continuance may be given to all parties within a reasonable time in advance of the previously scheduled hearing date."
+    },
+    {
+      "id": "dcv-v6-02191",
+      "citation": "80 Ill. Adm. Code 620.820",
+      "quote": "Section 620.820 Notice to Employee Unless the statement of reasons for demotion of a certified employee is approved by the Director, a copy of the approved statement of reasons for demotion may be served on the employee by the Director in person or by certified mail, return receipt requested, at the employee's address appearing in the personnel file."
+    },
+    {
+      "id": "dcv-v6-02193",
+      "citation": "89 Ill. Adm. Code 113.400",
+      "quote": "Applications for financial assistance filed on and after July 1, 1995, may not be considered under the Interim Assistance program."
+    },
+    {
+      "id": "dcv-v6-02194",
+      "citation": "89 Ill. Adm. Code 686.730",
+      "quote": "A Receipt for Appliances, Merchandise and Supplies form (IL 488-1694) may be completed and signed by the customer within 60 days after the equipment delivery, installation, or repair."
+    },
+    {
+      "id": "dcv-v6-02196",
+      "citation": "IL Const art. I, § 1",
+      "quote": "INHERENT OR INALIENABLE RIGHTS All men are by nature free and independent and have certain inherent and inalienable rights among which are life, liberty and the pursuit of happiness."
+    },
+    {
+      "id": "dcv-v6-02207",
+      "citation": "SCt Rule 5.4",
+      "quote": "(1) an agreement by a lawyer with the lawyer’s firm, partner, or associate shall provide for the payment of money, over a reasonable period of time after the lawyer’s death, to the lawyer’s estate or to one or more specified persons;"
+    },
+    {
+      "id": "dcv-v6-02214",
+      "citation": "18 U.S.C. § 3625",
+      "quote": "The provisions of sections 554 and 555 and 701 through 706 of title 5, United States Code, do not apply to the making of any determination, decision, and order under this subchapter."
+    },
+    {
+      "id": "dcv-v6-02218",
+      "citation": "18 U.S.C. § 9",
+      "quote": "The term “vessel of the United States”, as used in this title, means a vessel belonging in whole and in part to the United States, or any citizen thereof, or any corporation created by or under the laws of the United States, or of any State, Territory, District, or possession thereof."
+    },
+    {
+      "id": "dcv-v6-02219",
+      "citation": "28 U.S.C. § 113",
+      "quote": "Court for the Middle District may be held at Durham, Greensboro, and Winston-Salem."
+    },
+    {
+      "id": "dcv-v6-02224",
+      "citation": "28 U.S.C. § 2107",
+      "quote": "(1) that a party entitled to notice of the entry of a judgment or order did not receive such notice from the clerk or any party after 21 days of its entry, or"
+    },
+    {
+      "id": "dcv-v6-02233",
+      "citation": "42 U.S.C. § 13316",
+      "quote": "(B) utilize available financial assistance authorized by this section to counterbalance assistance provided by foreign governments to non-United States firms; or"
+    },
+    {
+      "id": "dcv-v6-02234",
+      "citation": "42 U.S.C. § 1396e–1",
+      "quote": "An employer shall notify a State that it elects to opt-out of being directly paid a premium assistance subsidy on behalf of an employee."
+    },
+    {
+      "id": "dcv-v6-02242",
+      "citation": "42 U.S.C. § 300e–14a",
+      "quote": "The Secretary of Health or Human Services, in connection with existing authority (except section 254b 1 of this title) for the provisions of health services to domestic agricultural migratory workers, to persons who perform seasonal agricultural services similar to the services performed by such workers, and to the families of such workers and persons, is authorized to arrange for the provision of health services to such workers and persons and their families through health maintenance organizations."
+    },
+    {
+      "id": "dcv-v6-02246",
+      "citation": "42 U.S.C. § 6371k",
+      "quote": "(2) establish a Federal cross-departmental collaborative coordination, education, or outreach effort to streamline communication and promote available Federal opportunities and assistance described in paragraph (1), for energy efficiency, renewable energy, and energy retrofitting projects that enables States, local educational agencies, and schools—"
+    },
+    {
+      "id": "dcv-v6-02250",
+      "citation": "US Const amend. XXVI",
+      "quote": "The right of citizens of the United States, who are 18 years of age and older, to vote, shall not be denied or abridged by the United States or any state on account of age."
+    },
+    {
+      "id": "dcv-v6-02252",
+      "citation": "Fed. R. Bankr. P. 8018",
+      "quote": "A district court or BAP must accept documents that comply with the form requirements of this rule and the length limits set by this Part VIII."
+    },
+    {
+      "id": "dcv-v6-02256",
+      "citation": "Fed. R. Civ. P. 41",
+      "quote": "When a jury trial has been demanded under Rule 38, the action must be designated on the docket as a jury action."
+    },
+    {
+      "id": "dcv-v6-02259",
+      "citation": "Fed. R. Crim. P. 26.1",
+      "quote": "Taking Testimony In every trial the testimony of witnesses must be taken in open court, unless otherwise provided by a statute or by rules adopted under 28 U.S.C. §§ 2072–2077."
+    },
+    {
+      "id": "dcv-v6-02262",
+      "citation": "Fed. R. Crim. P. 35",
+      "quote": "(iii) upon request, an opportunity to question any adverse witness, unless the judge determines that the interest of justice does not require the witness to appear."
+    },
+    {
+      "id": "dcv-v6-02270",
+      "citation": "Fed. R. Evid. 703",
+      "quote": "In a criminal case, an expert witness must not state an opinion about whether the defendant did or did not have a mental state or condition that constitutes an element of the crime charged or of a defense."
+    },
+    {
+      "id": "dcv-v6-02274",
+      "citation": "10 ILCS 5/16-7",
+      "quote": "Such determination shall be made by resolution of the county board, municipal board of election commissioners or county board of election commissioners, whichever is applicable."
+    },
+    {
+      "id": "dcv-v6-02275",
+      "citation": "10 ILCS 5/19A-70",
+      "quote": "In the cities, villages and incorporated towns in counties having a population of 500,000 or more, which are operating under this Article, the compensation of deputy registrars and judges of registration provided for the first registration under this Article and officers of registration appointed in conformity with Section 6-69 of this Article for subsequent registration shall be not less than $20 nor more than $30 per day."
+    },
+    {
+      "id": "dcv-v6-02279",
+      "citation": "105 ILCS 5/1H-95",
+      "quote": "This instruction shall help young people acquire and learn to use the skills, knowledge, and attitudes that will prepare them to be competent and responsible citizens throughout their lives."
+    },
+    {
+      "id": "dcv-v6-02281",
+      "citation": "110 ILCS 805/3-80",
+      "quote": "All faculty and staff members of a community college are free to communicate their views on any matter of private or public concern to any member of the legislative, executive, or judicial branch of government, State or federal, without notice to or prior approval of the community college, so long as they do not represent that they are speaking for or on behalf of the community college."
+    },
+    {
+      "id": "dcv-v6-02289",
+      "citation": "215 ILCS 5/143.12",
+      "quote": "(b) the independent insurance agent notifies the insurer in writing that the policy has been placed with another insurer."
+    },
+    {
+      "id": "dcv-v6-02291",
+      "citation": "225 ILCS 325/32",
+      "quote": "For the purpose of this Act the notice required under Section 10-25 of the Illinois Administrative Procedure Act is deemed sufficient when mailed to the address of record or emailed to the email address of record."
+    },
+    {
+      "id": "dcv-v6-02295",
+      "citation": "225 ILCS 645/15",
+      "quote": "(1) holds a valid certified professional midwife certification granted by NARM or its successor organization for at least 3 years;"
+    },
+    {
+      "id": "dcv-v6-02297",
+      "citation": "30 ILCS 105/8.26",
+      "quote": "All moneys from time to time held in the University Income Fund in the treasury of the University shall be used by the University, pursuant to the order and direction of the Board of Trustees of the University, for the support and improvement of the University, except for amounts disbursed from that University Income Fund for refunds to students for whom duplicate payment has been made and to students who have withdrawn after registration and who are entitled to such refunds."
+    },
+    {
+      "id": "dcv-v6-02298",
+      "citation": "305 ILCS 5/16-4",
+      "quote": "Proof in any hearing before the Illinois Department that a person is an applicant for or recipient of assistance shall be prima facie proof that he is a \"person who is in necessitous circumstances by reason of infirmity, unemployment, or other cause depriving him of the means of a livelihood compatible with health and well-being\", within the meaning of this Code."
+    },
+    {
+      "id": "dcv-v6-02300",
+      "citation": "35 ILCS 200/12-15",
+      "quote": "In counties with 3,000,000 or more inhabitants, the board of appeals (until the first Monday in December 1998 and the board of review beginning the first Monday in December 1998 and thereafter) in any year shall direct the county assessor, in accordance with Section 16-135, when he or she fails to do so on his or her own initiative, to assess all property which has not been assessed, for any reason, and enter the same upon the assessment books and to list and assess all property that has been omitted in the assessment for the current year and not more than 3 years prior to the current year."
+    },
+    {
+      "id": "dcv-v6-02309",
+      "citation": "40 ILCS 5/9-173",
+      "quote": "To maintain a separate account for each individual member and annuitant; to maintain adequate accounting records which shall reflect the financial condition of the system, and such additional data as shall be necessary for required calculations, actuarial valuations, and operation of the system; to have the records of the system photographed, microfilmed or otherwise reproduced, which photographs, microfilms or reproductions shall be deemed original records for all purposes."
+    },
+    {
+      "id": "dcv-v6-02318",
+      "citation": "520 ILCS 5/2.33a",
+      "quote": "The adoption of emergency rules authorized by Sections 5-45 of the Illinois Administrative Procedure Act and this paragraph is deemed to be necessary for the public interest, safety, and welfare."
+    },
+    {
+      "id": "dcv-v6-02325",
+      "citation": "605 ILCS 5/6-405",
+      "quote": "Fines and penalties recovered under the provisions of this Code shall be paid over to the treasurer of the highway authority responsible for the maintenance and upkeep of the public street or highway upon or along which the violation or offense occurred, and all such monies shall be used only for the construction or maintenance of such streets or highways."
+    },
+    {
+      "id": "dcv-v6-02329",
+      "citation": "625 ILCS 5/15-107",
+      "quote": "(b) Any other similar violation of a law or local ordinance of any state relating to motor vehicle traffic control, other than a parking violation."
+    },
+    {
+      "id": "dcv-v6-02332",
+      "citation": "625 ILCS 5/6-500.2",
+      "quote": "(a) The driver of a motor vehicle shall not follow another vehicle more closely than is reasonable and prudent, having due regard for the speed of such vehicles and the traffic upon and the condition of the highway."
+    },
+    {
+      "id": "dcv-v6-02342",
+      "citation": "70 ILCS 1215/30",
+      "quote": "No officer or employee in the service of such Park Employees' and Retirement Board Employees' Annuity and Benefit Fund shall, directly or indirectly, give or hand over to any officer or employee in said classified civil service, or to any senator, representative, alderperson, councilman, park commissioner or trustee, any money or other valuable thing on account of or to be applied to the promotion of any party or political object whatever."
+    },
+    {
+      "id": "dcv-v6-02343",
+      "citation": "70 ILCS 1801/15",
+      "quote": "No member of the Board or employee of the District shall have any private financial interest, profit, or benefit in any contract, work, or business of the District nor in the sale or lease of any property to or from the District."
+    },
+    {
+      "id": "dcv-v6-02358",
+      "citation": "11 Ill. Adm. Code 1325.180",
+      "quote": "5) Business Course Requirements A) Business courses are those courses commonly included in the business curriculum."
+    },
+    {
+      "id": "dcv-v6-02361",
+      "citation": "14 Ill. Adm. Code 510.340",
+      "quote": "Children's records shall be maintained for at least five years after the child's majority."
+    },
+    {
+      "id": "dcv-v6-02371",
+      "citation": "35 Ill. Adm. Code 725.243",
+      "quote": "Section 176.800 Electronic Notary Public Commission Required a) A person may not perform an electronic notarial act unless the Secretary of State has approved the electronic notary public commission of a person under 5 ILCS 312/2-102 and the traditional notary public commission is in effect."
+    },
+    {
+      "id": "dcv-v6-02372",
+      "citation": "35 Ill. Adm. Code 817.415",
+      "quote": "The laboratory shall perform a Western blot assay test to determine reactivity with viral polypeptides in accordance with manufacturer's recommendations or package insert."
+    },
+    {
+      "id": "dcv-v6-02377",
+      "citation": "50 Ill. Adm. Code 2010.10",
+      "quote": "No court reporter nor any electronic recording device is required at the formal settlement conference."
+    },
+    {
+      "id": "dcv-v6-02383",
+      "citation": "8 Ill. Adm. Code 900.105",
+      "quote": "Component units need not be limited to those entities which may be designated as component units by the Illinois Office of the Comptroller and may include, but need not be limited to, area agencies on aging and other providers under the Illinois Act on the Aging [20 ILCS 105]."
+    },
+    {
+      "id": "dcv-v6-02390",
+      "citation": "SCt Rule 134",
+      "quote": "In pleading the performance of a condition precedent in a contract, it is sufficient to allege generally that the party performed all the conditions on his part; if the allegation be denied, the facts must be alleged in connection with the denial showing wherein there was a failure to perform."
+    },
+    {
+      "id": "dcv-v6-02395",
+      "citation": "18 U.S.C. § 1859",
+      "quote": "(a) Violation of Regulations Authorized by Chapter 3201 of Title 54.— A person that violates any of the regulations authorized by chapter 3201 of title 54 shall be fined under this title and be adjudged to pay all cost of the proceedings."
+    },
+    {
+      "id": "dcv-v6-02402",
+      "citation": "28 U.S.C. § 598",
+      "quote": "(3) Building prospectus .— Prospectus PDC-98W10, giving the General Services Administration the authority for site acquisition, design, and construction of a new headquarters building for the Bureau of Alcohol, Tobacco and Firearms, is transferred, and deemed to apply, to the Bureau of Alcohol, Tobacco, Firearms, and Explosives established in the Department of Justice under subsection (a)."
+    },
+    {
+      "id": "dcv-v6-02405",
+      "citation": "42 U.S.C. § 12146",
+      "quote": "A State shall not be immune under the eleventh amendment to the Constitution of the United States from an action in 1 Federal or State court of competent jurisdiction for a violation of this chapter."
+    },
+    {
+      "id": "dcv-v6-02409",
+      "citation": "42 U.S.C. § 1759",
+      "quote": "(a) Payments reimbursable; filing claim for reimbursement; regulations for payment of direct benefits Where any employer or his insurance carrier or compensation fund pays or is required to pay benefits—"
+    },
+    {
+      "id": "dcv-v6-02412",
+      "citation": "42 U.S.C. § 254c–12",
+      "quote": "(b) Authorization of appropriations For the purpose of carrying out this section, there are authorized to be appropriated $19,500,000 for fiscal year 2010, and such sums as may be necessary for each of the fiscal years 2011 through 2015."
+    },
+    {
+      "id": "dcv-v6-02424",
+      "citation": "42 U.S.C. § 6961",
+      "quote": "(10) in consultation with the Secretary of the Interior, mining waste management problems, and practices, including an assessment of existing authorities, technologies, and economics, and the environmental and public health consequences of such practices."
+    },
+    {
+      "id": "dcv-v6-02426",
+      "citation": "Fed. R. Evid. 1309",
+      "quote": "Offers to Pay Medical and Similar Expenses Evidence of furnishing, promising to pay, or offering to pay medical, hospital, or similar expenses resulting from an injury is not admissible to prove liability for the injury."
+    },
+    {
+      "id": "dcv-v6-02429",
+      "citation": "10 ILCS 5/908-999",
+      "quote": "(3) The term \"representative district\" shall mean the territorial area from which a Representative in the General Assembly is to be elected."
+    },
+    {
+      "id": "dcv-v6-02431",
+      "citation": "20 ILCS 3501/1745-999",
+      "quote": "The Authority may maintain an office or branch office anywhere in the State, and may utilize, without the payment of rent, any office facilities which the State may conveniently make available to it."
+    },
+    {
+      "id": "dcv-v6-02434",
+      "citation": "220 ILCS 5/100015",
+      "quote": "Either the electric utility or the customer may require compliance with the prices, terms and conditions of such contract."
+    },
+    {
+      "id": "dcv-v6-02436",
+      "citation": "225 ILCS 37/100004",
+      "quote": "It is not the intent of this Act to require registration of these individuals, nor is it the intent that the registration of any person under this Act would allow that person to perform functions or engage in activities that would include the practice of engineering."
+    },
+    {
+      "id": "dcv-v6-02438",
+      "citation": "30 ILCS 540/903-999",
+      "quote": "In the event an individual has paid a vendor for services in advance, the provisions of this Section shall apply until payment is made to that individual."
+    },
+    {
+      "id": "dcv-v6-02445",
+      "citation": "415 ILCS 5/922-999",
+      "quote": "Such a settlement does not discharge any of the other potentially responsible parties unless its terms so provide, but it shall reduce the total potential liability of the other potentially responsible parties by the amount of the settlement."
+    },
+    {
+      "id": "dcv-v6-02458",
+      "citation": "70 ILCS 2605/912-999",
+      "quote": "Any such sanitary district may accept anticipation warrants issued by any municipality or municipalities within the territorial limits of such sanitary district in payment of any judgment or other obligation due such district."
+    },
+    {
+      "id": "dcv-v6-02461",
+      "citation": "705 ILCS 310/902-999",
+      "quote": "The combination of the lists of registered voters, driver's license, Illinois Identification Card, and Illinois Person with a Disability Identification Card holders, and claimants for unemployment insurance and the preparation of jury lists under this Act shall, when requested by the Chief Judge or his designee, be accomplished through the services of the Administrative Office of the Illinois Courts."
+    },
+    {
+      "id": "dcv-v6-02476",
+      "citation": "47 Ill. Adm. Code 360.112(z)(99)",
+      "quote": "Section 360.112 Gender and Number All terms used in any one gender or number shall be construed to include any other gender or number as the context may require."
+    },
+    {
+      "id": "dcv-v6-02477",
+      "citation": "83 Ill. Adm. Code 220.139",
+      "quote": "Section 220.40 Periodical Reports Reports of all accidents (including those previously reported by telephone, telegraph or post), shall be submitted in accordance with the instruction for that public utility's assigned class."
+    },
+    {
+      "id": "dcv-v6-02482",
+      "citation": "IL Const art. III, § 400",
+      "quote": "Laws governing voter registration and conduct of elections shall be general and uniform."
+    },
+    {
+      "id": "dcv-v6-02485",
+      "citation": "SCt Rule 2.913",
+      "quote": "(B) A judge shall refrain from casting a vote for the appointment or reappointment to the office of associate judge of the judge’s spouse, domestic partner, or of any person known by the judge to be within the third degree of relationship to the judge, the judge’s spouse, or domestic partner (or the spouse or domestic partner of such a person)."
+    },
+    {
+      "id": "dcv-v6-02489",
+      "citation": "18 U.S.C. § 2332.99",
+      "quote": "(3) if the killing is an involuntary manslaughter as defined in section 1112(a) of this title , be fined under this title or imprisoned not more than three years, or both."
+    },
+    {
+      "id": "dcv-v6-02492",
+      "citation": "28 U.S.C. § 118.99",
+      "quote": "Eastern District (a) The Eastern District comprises the counties of Berks, Bucks, Chester, Delaware, Lancaster, Lehigh, Montgomery, Northampton, and Philadelphia."
+    },
+    {
+      "id": "dcv-v6-02496",
+      "citation": "42 U.S.C. § 1395.99yy",
+      "quote": "(3) Measure adjustments When specifying the measures under paragraphs (1) and (2), the Secretary shall devise a methodology to achieve a high level of reliability and validity, especially for skilled nursing facilities with a low volume of readmissions."
+    },
+    {
+      "id": "dcv-v6-02500",
+      "citation": "US Const amend. 7A",
+      "quote": "Amendment VII In suits at common law, where the value in controversy shall exceed twenty dollars, the right of trial by jury shall be preserved, and no fact tried by a jury, shall be otherwise reexamined in any court of the United States, than according to the rules of the common law."
+    }
+  ]
+}

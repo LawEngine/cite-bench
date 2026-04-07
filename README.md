@@ -133,6 +133,14 @@ The public repo is for:
 
 Private grading keys and backend upload/scoring logic live outside this repo.
 
+## Licensing
+
+Software source code in this repository is licensed under `Apache-2.0`. See
+`LICENSE`.
+
+The benchmark dataset, prompt files, and benchmark-facing documentation are
+licensed under `CC BY 4.0`. See `DATA_LICENSE.md`.
+
 ## Development Notes
 
 Private operator notes and local setup docs are intentionally kept out of

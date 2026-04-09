@@ -3,39 +3,39 @@ Classify this citation-and-quote pair. Return JSON with "reasoning" and "predict
 Examples:
 
 Example 1 - VERIFIED:
-Citation: 735 ILCS 5/2-619(a)(9)
-Quote: The court shall hear and determine the motion without a jury.
-Answer: {{"reasoning": "Real ILCS citation for Section 2-619. The quoted text reads like verbatim statutory language about motion practice from that section.", "predicted_status": "VERIFIED"}}
+Citation: 20 ILCS 220/4
+Quote: The United States and the Secretary of Agriculture thereof shall be free from liability by virtue of any transfer of the assets of the Illinois Rural Rehabilitation Corporation pursuant to this Act.
+Answer: {{"reasoning": "This is a real citation, and the quoted sentence matches the cited provision as written.", "predicted_status": "VERIFIED"}}
 
-Example 2 - NOT_FOUND (subtle word change):
-Citation: 735 ILCS 5/2-619(a)(9)
-Quote: The court may hear and determine the motion without a jury.
-Answer: {{"reasoning": "Real citation, but 'may' instead of 'shall' is an operative word change. The actual provision uses 'shall'. This is fabricated text.", "predicted_status": "NOT_FOUND"}}
+Example 2 - NOT_FOUND:
+Citation: 20 ILCS 220/4
+Quote: The United States or the Secretary of Agriculture thereof shall be free from liability by virtue of any transfer of the assets of the Illinois Rural Rehabilitation Corporation pursuant to this Act.
+Answer: {{"reasoning": "This is a real citation, but the quote is altered and does not match the cited provision's actual text.", "predicted_status": "NOT_FOUND"}}
 
-Example 3 - VERIFIED (fragment):
-Citation: Fed. R. Civ. P. 56(a)
-Quote: identifying each claim or defense - or the part of each claim or defense - on which summary judgment is sought
-Answer: {{"reasoning": "Real FRCP citation. The quote is a mid-sentence fragment from Rule 56(a), which is a normal quoting pattern. Fragmentary formatting does not count against verification.", "predicted_status": "VERIFIED"}}
+Example 3 - VERIFIED:
+Citation: 42 U.S.C. § 6634
+Quote: (b) If the President determines that it is advantageous for the Committee to continue in being, (1) the Committee shall exercise such functions as are prescribed by the President; and (2) the members of the Committee shall serve at the pleasure of the President.
+Answer: {{"reasoning": "This is a real citation, and the quoted statutory language is supported by the cited provision.", "predicted_status": "VERIFIED"}}
 
 Example 4 - MISATTRIBUTED:
-Citation: 735 ILCS 5/2-615
-Quote: The court may dismiss the action or any claim against any defendant if the plaintiff fails to prosecute.
-Answer: {{"reasoning": "Real citation for 2-615, which covers dismissal for insufficient pleading. But this quote describes involuntary dismissal for failure to prosecute, which belongs elsewhere, not in 2-615.", "predicted_status": "MISATTRIBUTED"}}
+Citation: 810 ILCS 5/2A-532
+Quote: (2) Acceptance of a part of any commercial unit is acceptance of that entire unit.
+Answer: {{"reasoning": "This quote is real legal text, but it belongs to a different nearby provision rather than the citation shown here.", "predicted_status": "MISATTRIBUTED"}}
 
 Example 5 - CITATION_UNRESOLVED:
-Citation: 735 ILCS 5/2-619(a)(9)(z)(99)
-Quote: The court shall hear and determine the motion without a jury.
-Answer: {{"reasoning": "The base citation is real, but the extra subsection tail (z)(99) does not exist. This is a phantom citation.", "predicted_status": "CITATION_UNRESOLVED"}}
+Citation: 44 Ill. Adm. Code 4.2025(z)(99)
+Quote: No sole source or sole economically feasible source procurement may proceed without final approval by the CPO-HE.
+Answer: {{"reasoning": "The citation adds a phantom subsection tail and does not resolve to a real provision, so the safe label is CITATION_UNRESOLVED.", "predicted_status": "CITATION_UNRESOLVED"}}
 
-Example 6 - VERIFIED (enumerated item):
-Citation: 750 ILCS 5/503(d)
-Quote: (1) the duration of the marriage;
-Answer: {{"reasoning": "Real citation for the marital property division statute. The quote is a single enumerated item from the list of factors in subsection (d). Single enumerated items are normal quote fragments.", "predicted_status": "VERIFIED"}}
+Example 6 - VERIFIED:
+Citation: 810 ILCS 5/2-606
+Quote: (2) Acceptance of a part of any commercial unit is acceptance of that entire unit.
+Answer: {{"reasoning": "This is a real citation, and the quoted enumerated sentence is actually found in the cited provision.", "predicted_status": "VERIFIED"}}
 
-Example 7 - NOT_FOUND (number change):
-Citation: Fed. R. Civ. P. 12(a)(1)(A)
-Quote: A defendant must serve an answer within 30 days after being served with the summons and complaint.
-Answer: {{"reasoning": "Real citation, but the actual timeframe in FRCP 12(a)(1)(A) is 21 days, not 30 days. This is a fabricated alteration.", "predicted_status": "NOT_FOUND"}}
+Example 7 - NOT_FOUND:
+Citation: 810 ILCS 5/2A-522
+Quote: (2) A lessee acquires the right to recover goods identified to a lease contract only unless they conform to the lease contract.
+Answer: {{"reasoning": "This is a real citation, but the quote changes the operative text of the provision and is not actually found there.", "predicted_status": "NOT_FOUND"}}
 
 ---
 

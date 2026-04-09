@@ -108,7 +108,7 @@ def _effective_max_output_tokens(model: str, reasoning_effort: str, requested: i
             "low": 160,
             "medium": 384,
             "high": 768,
-            "xhigh": 1600,
+            "xhigh": 1200,
         }
         return max(requested, floor_by_effort.get(reasoning_effort, 256))
     return requested

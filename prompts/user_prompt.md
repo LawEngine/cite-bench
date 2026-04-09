@@ -23,9 +23,9 @@ Quote: (2) Acceptance of a part of any commercial unit is acceptance of that ent
 Answer: {{"reasoning": "This quote is real legal text, but it belongs to a different nearby provision rather than the citation shown here.", "predicted_status": "MISATTRIBUTED"}}
 
 Example 5 - CITATION_UNRESOLVED:
-Citation: 44 Ill. Adm. Code 4.2025(z)(99)
-Quote: No sole source or sole economically feasible source procurement may proceed without final approval by the CPO-HE.
-Answer: {{"reasoning": "The citation adds a phantom subsection tail and does not resolve to a real provision, so the safe label is CITATION_UNRESOLVED.", "predicted_status": "CITATION_UNRESOLVED"}}
+Citation: Fed. R. Evid. 1502
+Quote: Need for Personal Knowledge A witness may testify to a matter only if evidence is introduced sufficient to support a finding that the witness has personal knowledge of the matter.
+Answer: {{"reasoning": "This quote is real, but the rule citation is impossible as written and does not resolve to a real provision.", "predicted_status": "CITATION_UNRESOLVED"}}
 
 Example 6 - VERIFIED:
 Citation: 810 ILCS 5/2-606
